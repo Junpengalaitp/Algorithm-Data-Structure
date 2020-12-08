@@ -1,0 +1,70 @@
+{
+    "root": {
+        "data": {
+            "id": "c7n1smbrpw80",
+            "created": 1607394498098,
+            "text": "Linked List"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c7n1v92u8sw0",
+                    "created": 1607394704352,
+                    "text": "基本操作",
+                    "expandState": "collapse",
+                    "layout_mind_offset": {
+                        "x": -75,
+                        "y": -223
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7n1vljgpm80",
+                            "created": 1607394731479,
+                            "text": "插入"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7n1x0mtnbs0",
+                                    "created": 1607394842698,
+                                    "text": "next = curr.next; curr.next = target; target.next = next"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7n1voq64940",
+                            "created": 1607394738415,
+                            "text": "删除"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7n1z98wmuo0",
+                                    "created": 1607395018176,
+                                    "text": "next = target.next; prev.next = next"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7n1vro5pi80",
+                            "created": 1607394744823,
+                            "text": "遍历"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}
