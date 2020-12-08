@@ -61,10 +61,199 @@
                         "children": []
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "c7n45nhve000",
+                    "created": 1607401161598,
+                    "text": "一个原则：画图",
+                    "layout_mind_offset": {
+                        "x": 510,
+                        "y": 0
+                    }
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c7n45vzwnyo0",
+                    "created": 1607401180102,
+                    "text": "两个考点"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7n466a7lug0",
+                            "created": 1607401202493,
+                            "text": "指针的修改"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7n49t1sgtc0",
+                                    "created": 1607401487143,
+                                    "text": "反转链表"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7n46b8iui80",
+                            "created": 1607401213275,
+                            "text": "链表的拼接"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7n4aimc4gg0",
+                                    "created": 1607401542804,
+                                    "text": "分割链表"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7n481qixa80",
+                    "created": 1607401349324,
+                    "text": "三个注意"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7n48fskvgg0",
+                            "created": 1607401379923,
+                            "text": "环"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7n4awugjhs0",
+                                    "created": 1607401573771,
+                                    "text": "判断是否有环"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7n4b5wzoe80",
+                                    "created": 1607401593515,
+                                    "text": "操作中不能出现环"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7n4biu6afk0",
+                                            "created": 1607401621643,
+                                            "text": "通过画图观察子结构"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7n48oif4g00",
+                            "created": 1607401398900,
+                            "text": "边界"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7n4c1r52600",
+                                    "created": 1607401662818,
+                                    "text": "头尾节点"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7n48qx7bag0",
+                            "created": 1607401404147,
+                            "text": "前后序"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7n48eoe0940",
+                    "created": 1607401377493,
+                    "text": "四个技巧"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7n4hsjsykg0",
+                            "created": 1607402112968,
+                            "text": "虚拟头"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c7n4z12bxjk0",
+                            "created": 1607403463694,
+                            "text": "快慢指针"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c7n4z42g3xc0",
+                            "created": 1607403470231,
+                            "text": "穿针引线"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7n4zw25t680",
+                                    "created": 1607403531164,
+                                    "text": "LC 25: Reverse Nodes in k-Group"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7n50sd9h8o0",
+                                    "created": 1607403601492,
+                                    "text": "LC 61: Rotate List"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7n50xtgz140",
+                                    "created": 1607403613356,
+                                    "text": "LC 92: Reverse Linked List II"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7n4zbmz9fk0",
+                            "created": 1607403486710,
+                            "text": "先穿再排后判空"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
-    "template": "default",
+    "template": "right",
     "theme": "classic",
     "version": "1.4.43"
 }
