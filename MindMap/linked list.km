@@ -255,7 +255,8 @@
                 "data": {
                     "id": "c7nxpl9h6yo0",
                     "created": 1607484536207,
-                    "text": "Problems"
+                    "text": "Problems",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
@@ -315,6 +316,23 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7olbuf0euw0",
+                                    "created": 1607551165672,
+                                    "text": "LC 92. Reverse LinkedList II"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7old5q061s0",
+                                            "created": 1607551268646,
+                                            "text": "Sentinel node, use a count(start at 1) first connect all nodes before m, then use count and n to find the tail of the list. Finally set prev to the tail and reverse the head"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -322,17 +340,70 @@
                         "data": {
                             "id": "c7oagyulnew0",
                             "created": 1607520534934,
-                            "text": "Loop"
+                            "text": "Loop",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 42,
+                                "y": 193
+                            }
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7olcfaguwo0",
+                                    "created": 1607551211110,
+                                    "text": "LC 86. Partition List"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
                             "id": "c7oah2ujdxs0",
                             "created": 1607520543637,
-                            "text": "Mege List"
+                            "text": "Mege List",
+                            "layout_right_offset": {
+                                "x": 21,
+                                "y": -23
+                            },
+                            "layout": null
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7olb1boa6w0",
+                                    "created": 1607551102344,
+                                    "text": "LC 21. Merge two sorted list"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7olcfaguwo0",
+                                    "created": 1607551211110,
+                                    "text": "LC 86. Partition List"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7olbuf0euw0",
+                                    "created": 1607551165672,
+                                    "text": "LC 92. Reverse LinkedList II"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7old5q061s0",
+                                            "created": 1607551268646,
+                                            "text": "Sentinel node, use a count(start at 1) first connect all nodes before m, then use count and n to find the tail of the list. Finally set prev to the tail and reverse the head"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
