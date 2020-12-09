@@ -204,7 +204,7 @@
                         "data": {
                             "id": "c7n4z12bxjk0",
                             "created": 1607403463694,
-                            "text": "快慢指针"
+                            "text": "双指针，快慢指针"
                         },
                         "children": []
                     },
@@ -248,6 +248,75 @@
                             "text": "先穿再排后判空"
                         },
                         "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7nxpl9h6yo0",
+                    "created": 1607484536207,
+                    "text": "Problems"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7nxv49j5dk0",
+                            "created": 1607484969390,
+                            "text": "Manipulate Pointers"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7nxvd69gy80",
+                                    "created": 1607484988783,
+                                    "text": "LC 83. Remove Duplicates from Sorted List"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7nzydw542w0",
+                                            "created": 1607490867661,
+                                            "text": "use extra space, a hash set"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7nzy01cbc00",
+                                            "created": 1607490837500,
+                                            "text": "sentinel head + two pointers"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7nxvifb3hc0",
+                                    "created": 1607485000214,
+                                    "text": "LC 82. Remove Duplicates from Sorted List II"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7nzy01cbc00",
+                                            "created": 1607490837500,
+                                            "text": "sentinel head + two pointers"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c7o08np1grk0",
+                                                    "created": 1607491672641,
+                                                    "text": "use an anchor pointer and an explore pointer, when their value are equal, skip those node."
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
