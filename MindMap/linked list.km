@@ -343,8 +343,8 @@
                             "text": "Loop",
                             "expandState": "expand",
                             "layout_right_offset": {
-                                "x": 42,
-                                "y": 193
+                                "x": 65,
+                                "y": 215
                             }
                         },
                         "children": [
@@ -355,6 +355,56 @@
                                     "text": "LC 86. Partition List"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7p3f2k6h8g0",
+                                    "created": 1607602198470,
+                                    "text": "LC 141. Linked List Cycle"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7p3fbjwuzk0",
+                                            "created": 1607602218045,
+                                            "text": "With space: use a hase set"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7p3fhs8d5c0",
+                                            "created": 1607602231608,
+                                            "text": "No space: use slow fast pointers"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7p3nwb5tao0",
+                                    "created": 1607602890141,
+                                    "text": "142. Linked List Cycle II"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7p3o6f5s2o0",
+                                            "created": 1607602912151,
+                                            "text": "With space: use a hash set"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7p3ocz1khs0",
+                                            "created": 1607602926414,
+                                            "text": "No space: slow and fast pointer, when they are met, poiner one of them to the head, advance one step both until they meet, the meet point is the loop start"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -364,8 +414,8 @@
                             "created": 1607520543637,
                             "text": "Mege List",
                             "layout_right_offset": {
-                                "x": 21,
-                                "y": -23
+                                "x": 116,
+                                "y": -210
                             },
                             "layout": null
                         },
