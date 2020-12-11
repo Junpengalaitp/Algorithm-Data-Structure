@@ -1,0 +1,52 @@
+{
+    "root": {
+        "data": {
+            "id": "c7pzbkmoico0",
+            "created": 1607692199863,
+            "text": "Array"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c7pzbpr5gmg0",
+                    "created": 1607692211018,
+                    "text": "2D Array(Matrix)",
+                    "layout_mind_offset": {
+                        "x": -48,
+                        "y": -165
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7pzbysqb4o0",
+                            "created": 1607692230704,
+                            "text": "LC 48. Rotate image"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7pzc7y9aqw0",
+                                    "created": 1607692250630,
+                                    "text": "Transpose and Reverse: take the transpose of the matrix(pair change by diagnal), then reverse each row"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7pzd5pcquw0",
+                                    "created": 1607692324102,
+                                    "text": "change layer by layer: in every layer, top left -> top right->bottom right->bottom left -> top left "
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "classic",
+    "version": "1.4.43"
+}

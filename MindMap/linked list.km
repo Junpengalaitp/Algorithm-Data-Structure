@@ -351,7 +351,8 @@
                                 "data": {
                                     "id": "c7pp7wczco00",
                                     "created": 1607663700843,
-                                    "text": "LC 234. Palindrome Linked List"
+                                    "text": "LC 234. Palindrome Linked List",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
@@ -359,6 +360,32 @@
                                             "id": "c7pp7xmwhio0",
                                             "created": 1607663703619,
                                             "text": "No space: get the mid node, reverse the mid node, compare head and reversed head one by one"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7pidd0ew800",
+                                    "created": 1607644381140,
+                                    "text": "LC 143. Reorder List",
+                                    "font-weight": "bold"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7pigubpqxs0",
+                                            "created": 1607644653921,
+                                            "text": "With space: use a array to store nodes"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7pih44rp8g0",
+                                            "created": 1607644675269,
+                                            "text": "No space: spilit the array from mid + 1, reverse the right part, then merge left and right"
                                         },
                                         "children": []
                                     }
