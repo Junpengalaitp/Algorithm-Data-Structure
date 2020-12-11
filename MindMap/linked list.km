@@ -256,28 +256,35 @@
                     "id": "c7nxpl9h6yo0",
                     "created": 1607484536207,
                     "text": "Problems",
-                    "expandState": "expand"
+                    "expandState": "expand",
+                    "layout_right_offset": {
+                        "x": -132,
+                        "y": 127
+                    }
                 },
                 "children": [
                     {
                         "data": {
                             "id": "c7nxv49j5dk0",
                             "created": 1607484969390,
-                            "text": "Manipulate Pointers"
+                            "text": "Manipulate Pointers",
+                            "layout": null
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "c7nxvd69gy80",
                                     "created": 1607484988783,
-                                    "text": "LC 83. Remove Duplicates from Sorted List"
+                                    "text": "LC 83. Remove Duplicates from Sorted List",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "c7nzydw542w0",
                                             "created": 1607490867661,
-                                            "text": "use extra space, a hash set"
+                                            "text": "use extra space, a hash set",
+                                            "layout": null
                                         },
                                         "children": []
                                     },
@@ -285,7 +292,8 @@
                                         "data": {
                                             "id": "c7nzy01cbc00",
                                             "created": 1607490837500,
-                                            "text": "sentinel head + two pointers"
+                                            "text": "sentinel head + two pointers",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -295,21 +303,24 @@
                                 "data": {
                                     "id": "c7nxvifb3hc0",
                                     "created": 1607485000214,
-                                    "text": "LC 82. Remove Duplicates from Sorted List II"
+                                    "text": "LC 82. Remove Duplicates from Sorted List II",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "c7nzy01cbc00",
                                             "created": 1607490837500,
-                                            "text": "sentinel head + two pointers"
+                                            "text": "sentinel head + two pointers",
+                                            "layout": null
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "c7o08np1grk0",
                                                     "created": 1607491672641,
-                                                    "text": "use an anchor pointer and an explore pointer, when their value are equal, skip those node."
+                                                    "text": "use an anchor pointer and an explore pointer, when their value are equal, skip those node.",
+                                                    "layout": null
                                                 },
                                                 "children": []
                                             }
@@ -321,14 +332,16 @@
                                 "data": {
                                     "id": "c7olbuf0euw0",
                                     "created": 1607551165672,
-                                    "text": "LC 92. Reverse LinkedList II"
+                                    "text": "LC 92. Reverse LinkedList II",
+                                    "layout": null
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "c7old5q061s0",
                                             "created": 1607551268646,
-                                            "text": "Sentinel node, use a count(start at 1) first connect all nodes before m, then use count and n to find the tail of the list. Finally set prev to the tail and reverse the head"
+                                            "text": "Sentinel node, use a count(start at 1) first connect all nodes before m, then use count and n to find the tail of the list. Finally set prev to the tail and reverse the head",
+                                            "layout": null
                                         },
                                         "children": []
                                     }
@@ -343,8 +356,8 @@
                             "text": "Loop",
                             "expandState": "expand",
                             "layout_right_offset": {
-                                "x": 65,
-                                "y": 215
+                                "x": 179,
+                                "y": 130
                             }
                         },
                         "children": [
@@ -414,10 +427,11 @@
                             "created": 1607520543637,
                             "text": "Mege List",
                             "layout_right_offset": {
-                                "x": 116,
-                                "y": -210
+                                "x": 55,
+                                "y": 353
                             },
-                            "layout": null
+                            "layout": null,
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -448,6 +462,39 @@
                                             "id": "c7old5q061s0",
                                             "created": 1607551268646,
                                             "text": "Sentinel node, use a count(start at 1) first connect all nodes before m, then use count and n to find the tail of the list. Finally set prev to the tail and reverse the head"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7po4pfz0xc0",
+                                    "created": 1607660629584,
+                                    "text": "LC 148. Sort List"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7po5gn0d0w0",
+                                            "created": 1607660688782,
+                                            "text": "use O(n) space: put nodes in a collection, then use anying sorting algorithm"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7pownpaey00",
+                                            "created": 1607662819990,
+                                            "text": "use log(n) space: top down merge sort, get the mid node recursively(need to cut off the link before mid), then merge head and mid node recursively."
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7po62hte600",
+                                            "created": 1607660736357,
+                                            "text": "no space: bottom up merge sort"
                                         },
                                         "children": []
                                     }
