@@ -346,6 +346,23 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7pp7wczco00",
+                                    "created": 1607663700843,
+                                    "text": "LC 234. Palindrome Linked List"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7pp7xmwhio0",
+                                            "created": 1607663703619,
+                                            "text": "No space: get the mid node, reverse the mid node, compare head and reversed head one by one"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
