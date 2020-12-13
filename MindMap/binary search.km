@@ -1,0 +1,157 @@
+{
+    "root": {
+        "data": {
+            "id": "c7qt46oa30w0",
+            "created": 1607776254233,
+            "text": "Binary Search"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c7qt4stlv740",
+                    "created": 1607776302445,
+                    "text": "场景"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7qt4xn4vbs0",
+                            "created": 1607776312937,
+                            "text": "寻找一个元素"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c7qt52j8vf40",
+                            "created": 1607776323586,
+                            "text": "寻找左侧边界"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7rheovkguw0",
+                                    "created": 1607844784136,
+                                    "text": "target找到时，不返回，将右侧边界缩小为mid - 1"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7qt56mifwg0",
+                            "created": 1607776332491,
+                            "text": "寻找右侧边界"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7rheovkguw0",
+                                    "created": 1607844784136,
+                                    "text": "target找到时，不返回，将左侧边界缩小为mid + 1"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7qt8div4ww0",
+                    "created": 1607776582600,
+                    "text": "技巧"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7qt8ip6ork0",
+                            "created": 1607776593866,
+                            "text": "不要用else,把每个条件都写清楚"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c7qt91958w80",
+                            "created": 1607776634255,
+                            "text": "当right == length - 1时，用 left <= right作为while条件"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7qt8zxt7s00",
+                    "created": 1607776631393,
+                    "text": "题目"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7rh51wd5hk0",
+                            "created": 1607844028840,
+                            "text": "LC 34. Find First and Last Position of Element in Sorted Array"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7rht99zktc0",
+                                    "created": 1607845925641,
+                                    "text": "search left and right bounds"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7rht5waj6w0",
+                            "created": 1607845918283,
+                            "text": "LC 153. Find Minimum in Rotated Sorted Array"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7rhtfta6io0",
+                                    "created": 1607845939869,
+                                    "text": "use binary search to find the value that less its pervisous one, which must be the minimum"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7rhuq2wwxs0",
+                                    "created": 1607846040583,
+                                    "text": "base case: if the first element is less or equal to the last element, the array is not rotated, just return the firsr element"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7rhvmt14q00",
+                                    "created": 1607846111819,
+                                    "text": "detail 1: every loop check two senarios: mid vs mid + 1, and mid vs mid - 1, if any check passes, return the smaller value. Need to check mid vs mid + 1 to avoid idx out of bound, because when find mid, the mid idx is the floor value, so the mid + 1 will always exists"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7rhy13yolc0",
+                                    "created": 1607846299684,
+                                    "text": "detail 2: when those two check fails, compare mid with the fist elements for determine the search direction, if it's larger than first, mid is in the left part, continue search on the right half, else the mid is in the right part, continue search on left part"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
