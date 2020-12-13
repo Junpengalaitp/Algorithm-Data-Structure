@@ -91,9 +91,38 @@
                 "children": [
                     {
                         "data": {
+                            "id": "c7roiw7df1k0",
+                            "created": 1607864861313,
+                            "text": "LC 33. Search in Rotated Sorted Array"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7rojau2prs0",
+                                    "created": 1607864893160,
+                                    "text": "normal binary search return conditon, nums[mid] == target"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7rojlau1mg0",
+                                    "created": 1607864915942,
+                                    "text": "when continue search, check the first element and the relative target position"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
                             "id": "c7rh51wd5hk0",
                             "created": 1607844028840,
-                            "text": "LC 34. Find First and Last Position of Element in Sorted Array"
+                            "text": "LC 34. Find First and Last Position of Element in Sorted Array",
+                            "layout_right_offset": {
+                                "x": 0,
+                                "y": 2
+                            }
                         },
                         "children": [
                             {
@@ -142,6 +171,55 @@
                                     "id": "c7rhy13yolc0",
                                     "created": 1607846299684,
                                     "text": "detail 2: when those two check fails, compare mid with the fist elements for determine the search direction, if it's larger than first, mid is in the left part, continue search on the right half, else the mid is in the right part, continue search on left part"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7rktg3s06g0",
+                            "created": 1607854403833,
+                            "text": "LC 154. Find Minimum in Rotated Sorted Array II"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7rkv6rj0lk0",
+                                    "created": 1607854540230,
+                                    "text": "base case: if the first element is less or equal to the last element, the array is not rotated, just return the firsr element"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7rkva2anv40",
+                                    "created": 1607854547411,
+                                    "text": "if mid element is less than the right element, from mid to right can be ignored, continue search on [left, mid]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7rkxcb3nyw0",
+                                    "created": 1607854709026,
+                                    "text": "if mid element is larger than the left element, from left to mid can be ignored, continue search on [mid, right]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7rkyur8eps0",
+                                    "created": 1607854827547,
+                                    "text": "if mid == right, decrement right by one"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7rkz7v84io0",
+                                    "created": 1607854856087,
+                                    "text": "worse case time complexity O(n), average O(logn), no extra space"
                                 },
                                 "children": []
                             }
