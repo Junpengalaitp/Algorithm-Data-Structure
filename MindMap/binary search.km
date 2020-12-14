@@ -224,6 +224,31 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7s27ujxyu00",
+                            "created": 1607903491252,
+                            "text": "LC 378. Kth Smallest Element in a Sorted Matrix"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7s29laimaw0",
+                                    "created": 1607903627820,
+                                    "text": "the matrix is sorted by diagonal, the top left part is less than mid, the right bottom part is larger than mid"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7s2aomixug0",
+                                    "created": 1607903713440,
+                                    "text": "each time we pick a mid, calculate how many elements is less than mid, if the count is larger than k, the right = mid - 1, the left = mid + 1"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
