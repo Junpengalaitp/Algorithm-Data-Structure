@@ -1,0 +1,90 @@
+{
+    "root": {
+        "data": {
+            "id": "c7swezedx940",
+            "created": 1607988683646,
+            "text": "String"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c7swf2t8x000",
+                    "created": 1607988691075,
+                    "text": "LC 161. One Edit Distance"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7trw9c4m2w0",
+                            "created": 1608077491876,
+                            "text": "if the two string are equal, no need to edit, return False "
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c7trwhustm00",
+                            "created": 1608077510419,
+                            "text": "equal length: replace "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7u88tlrjpc0",
+                                    "created": 1608123614123,
+                                    "text": "one found diff marker, inital to false, if find the first diff, mark to true, when the second diff found, return false"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7ts0yca3ko0",
+                            "created": 1608077859761,
+                            "text": "length diff by one: insert and delete"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7u89zhx6000",
+                                    "created": 1608123705315,
+                                    "text": "to pointers, when the first diff found, move the longer pointer by one, else move both pointer by one. when the second diff found and two pointer are not equal, return false"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7u8m4oca1s0",
+                    "created": 1608124656957,
+                    "text": "CTCI 1.6 compress string"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7u8mgsxcso0",
+                            "created": 1608124683356,
+                            "text": "two pointer"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c7u8ucjyqdc0",
+                    "created": 1608125301020,
+                    "text": "CTCI 1.9 is rotation"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
