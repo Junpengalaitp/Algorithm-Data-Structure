@@ -1,0 +1,81 @@
+{
+    "root": {
+        "data": {
+            "id": "c7vy8r2qr7s0",
+            "created": 1608298517433,
+            "text": "Stack and Queue"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c7won619xaw0",
+                    "created": 1608372995952,
+                    "text": "Stack"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c7won74gwo00",
+                            "created": 1608372998322,
+                            "text": "LC. 394 Decode String"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7wonqt72vc0",
+                                    "created": 1608373041176,
+                                    "text": "flat the nested brackets: 2[a2[bc]] -> 2[abcbc]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7woog6v3kw0",
+                                    "created": 1608373096422,
+                                    "text": "loop the string"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7wooruvuco0",
+                                            "created": 1608373121819,
+                                            "text": "if current index is a number, parse the number and push it to stack(could be a large number)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7wopeohufc0",
+                                            "created": 1608373171499,
+                                            "text": "if the current index is a string or left bracket, push it to the stack"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7wopqke0lc0",
+                                            "created": 1608373197372,
+                                            "text": "if the current index is a right bracket, start poping the stack until the left bracket are found, reverse the chars and make them a string"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7woqwymfmo0",
+                                            "created": 1608373289657,
+                                            "text": "find the top number on stack, multiply the string by it"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
