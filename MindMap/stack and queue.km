@@ -32,7 +32,7 @@
                                 "data": {
                                     "id": "c7woog6v3kw0",
                                     "created": 1608373096422,
-                                    "text": "loop the string"
+                                    "text": "iterative"
                                 },
                                 "children": [
                                     {
@@ -68,6 +68,106 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7x76jxw9yo0",
+                                    "created": 1608425295120,
+                                    "text": "recursive"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7x76lupkco0",
+                                            "created": 1608425299281,
+                                            "text": "if current idx is a digit"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c7x770zds7c0",
+                                                    "created": 1608425332215,
+                                                    "text": "parse the digit until we meet the left bracket"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c7x778n1d340",
+                                                    "created": 1608425348883,
+                                                    "text": "recusively parse the substring in the bracket until we meet right bracket"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c7x77v1xxio0",
+                                                    "created": 1608425397673,
+                                                    "text": "recursively call on the rest of the string"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7x7872jdhs0",
+                                            "created": 1608425423831,
+                                            "text": "if current idx is a letter"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c7x78bkrx740",
+                                                    "created": 1608425433641,
+                                                    "text": "parse the letter"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c7x78f6oy540",
+                                                    "created": 1608425441496,
+                                                    "text": "recursively call on the rest of the string"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7xh8r9vjug0",
+                            "created": 1608453678909,
+                            "text": "LC 946. Validate Stack Sequences"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7xh8tu49ao0",
+                                    "created": 1608453684487,
+                                    "text": "use a stack, push the pushed value to the stack"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7xh99h5rrc0",
+                                    "created": 1608453718532,
+                                    "text": "while encounter pushed value equals to poped value, we need to pop it"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7xha5x4sfs0",
+                                    "created": 1608453789155,
+                                    "text": "finally we check the stack is empty or not"
+                                },
+                                "children": []
                             }
                         ]
                     }
