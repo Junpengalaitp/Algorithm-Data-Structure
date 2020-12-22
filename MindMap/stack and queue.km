@@ -170,8 +170,91 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c7y0o62r0bc0",
+                            "created": 1608508487681,
+                            "text": "Monoston Stack"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c7y0ohoksio0",
+                                    "created": 1608508512945,
+                                    "text": "a stack with all it elements in sorted order"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7y0owf5v9c0",
+                                    "created": 1608508545028,
+                                    "text": "good for problems which need to find the next greater/smaller element"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7y0pizcqd40",
+                                    "created": 1608508594138,
+                                    "text": "LC 496. Next Greater Element I"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7y0pple25s0",
+                                            "created": 1608508608531,
+                                            "text": "use monotone stack for finding next greater element of the array, put the result in the map"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7y0q8o75mw0",
+                                            "created": 1608508650060,
+                                            "text": "return ans from the map"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7yvn1d3a8o0",
+                                    "created": 1608595853465,
+                                    "text": "LC. 739. Daily Temperatures"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7yvn4kgdy80",
+                                            "created": 1608595860441,
+                                            "text": "use monotone stack (decreasing), push the array idx in stack"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7yvnjmdw1k0",
+                                            "created": 1608595893209,
+                                            "text": "loop the array, while current idx element is greater than the stack top idx element, pop the idx and record answer as current idx - stack top idx"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "c7y0o3gyxps0",
+                    "created": 1608508482010,
+                    "text": "Queue"
+                },
+                "children": []
             }
         ]
     },
