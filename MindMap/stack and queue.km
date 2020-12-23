@@ -243,6 +243,87 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7zovvkq1ls0",
+                                    "created": 1608678358331,
+                                    "text": "LC 42"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7zpljr6ers0",
+                                    "created": 1608680370068,
+                                    "text": "LC 84. Largest Rectangle in Histogram"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c7zplr0a2740",
+                                            "created": 1608680385856,
+                                            "text": "for each pillar, the largest area of its height is determined by the nearest pillar that shorter than it from left and right "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c7zpp37h82o0",
+                                            "created": 1608680647505,
+                                            "text": "in other words, the pillar need to find the first item that smaller than it, we can use a monotone increasing stack to do it"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c80itqnlnxc0",
+                                            "created": 1608762824190,
+                                            "text": "when push into the stack, pop all elements that are greater than the current element, so the stack top must be the nearest smallest element"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c80iv1iosps0",
+                                            "created": 1608762926201,
+                                            "text": "we can find the smallest next of both left and right in one iteration, because when we are poping items, the next smallest of the poped item must be the current item that we are pushing to the stack"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c7zovx6wnr40",
+                                    "created": 1608678361849,
+                                    "text": "LC 316"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7zow1vt6y80",
+                                    "created": 1608678372062,
+                                    "text": "LC 901"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7zow3j510g0",
+                                    "created": 1608678375649,
+                                    "text": "LC 402"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c7zow6s1h7k0",
+                                    "created": 1608678382718,
+                                    "text": "LC 581"
+                                },
+                                "children": []
                             }
                         ]
                     }
