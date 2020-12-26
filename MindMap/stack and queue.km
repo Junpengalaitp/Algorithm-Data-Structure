@@ -313,9 +313,34 @@
                                 "data": {
                                     "id": "c7zow3j510g0",
                                     "created": 1608678375649,
-                                    "text": "LC 402"
+                                    "text": "LC 402.Remove K Digits"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c82jgf0q9540",
+                                            "created": 1608967721151,
+                                            "text": "use a monotone increasing stack(can pop k items)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c82jgmzgaqw0",
+                                            "created": 1608967738488,
+                                            "text": "if k > 0, remove k elements from the end"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c82jhq97s600",
+                                            "created": 1608967823973,
+                                            "text": "return the stack elements as string"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
