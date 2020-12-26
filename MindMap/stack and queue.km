@@ -295,14 +295,6 @@
                             },
                             {
                                 "data": {
-                                    "id": "c7zovx6wnr40",
-                                    "created": 1608678361849,
-                                    "text": "LC 316"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
                                     "id": "c7zow1vt6y80",
                                     "created": 1608678372062,
                                     "text": "LC 901"
@@ -346,9 +338,34 @@
                                 "data": {
                                     "id": "c7zow6s1h7k0",
                                     "created": 1608678382718,
-                                    "text": "LC 581"
+                                    "text": "LC 581. Shortest Unsorted Continuous Subarray"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c82kafracj40",
+                                            "created": 1608970073682,
+                                            "text": "use monotone stack find the left and right"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c82kaom199c0",
+                                            "created": 1608970092955,
+                                            "text": "finding left: increasing stack"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c82kawqxtjs0",
+                                            "created": 1608970110666,
+                                            "text": "finding right: reverse loop, decreasing stack"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     }
