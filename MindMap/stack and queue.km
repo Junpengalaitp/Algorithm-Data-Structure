@@ -297,9 +297,42 @@
                                 "data": {
                                     "id": "c7zow1vt6y80",
                                     "created": 1608678372062,
-                                    "text": "LC 901"
+                                    "text": "LC 901. Online Stock Span"
                                 },
-                                "children": []
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c8352mpax2g0",
+                                            "created": 1609028705194,
+                                            "text": "use two monotone decreasing stacks, one for stock prices, one for less or equal price count"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8353b8471k0",
+                                            "created": 1609028758575,
+                                            "text": "loop and do normal monotone stack operation"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8353lrlxm80",
+                                            "created": 1609028781521,
+                                            "text": "the current count always start with 1, when popping items from prices stack, also pop items from count stack, and sum the counts as result"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c8354jlyol40",
+                                            "created": 1609028855190,
+                                            "text": "push current price to price stack, current count to count stack"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             },
                             {
                                 "data": {
