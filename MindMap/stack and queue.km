@@ -175,7 +175,8 @@
                         "data": {
                             "id": "c7y0o62r0bc0",
                             "created": 1608508487681,
-                            "text": "Monoston Stack"
+                            "text": "Monoston Stack",
+                            "expandState": "collapse"
                         },
                         "children": [
                             {
@@ -401,6 +402,89 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c836pedf4go0",
+                            "created": 1609033310547,
+                            "text": "Calculator"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c836pgohxo00",
+                                    "created": 1609033315571,
+                                    "text": "LC 150. Evaluate Reverse Polish Notation"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c836prbxqew0",
+                                            "created": 1609033338756,
+                                            "text": "use a stack, when encounter operators, pop two operands from the stack, and add the result to the stack"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c83e4vwmcf40",
+                                    "created": 1609054271945,
+                                    "text": "LC 227. Basic Calculator II"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c83e5w7ybrk0",
+                                            "created": 1609054350995,
+                                            "text": "init an empty stack, an operator as '+', and an empty number string"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c83e6ni6dfc0",
+                                            "created": 1609054410386,
+                                            "text": "loop throught the string, if the char is digit, add it to the number string"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c83e7ab94wg0",
+                                            "created": 1609054460033,
+                                            "text": "if it's an operator or the last element, pop the number from the stack and do operations"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c83e7yvs8og0",
+                                            "created": 1609054513518,
+                                            "text": "if the operartor is '*' or '/', do the operation with stack top and current number and add result to the stack"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c83e9315l940",
+                                            "created": 1609054600914,
+                                            "text": "if the operator is '+' or '-', just add current number to the stack(negative value for '-')"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c83e9rlbz200",
+                                            "created": 1609054654376,
+                                            "text": "sum the stack elements as result"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -408,7 +492,11 @@
                 "data": {
                     "id": "c7y0o3gyxps0",
                     "created": 1608508482010,
-                    "text": "Queue"
+                    "text": "Queue",
+                    "layout_right_offset": {
+                        "x": 17,
+                        "y": 306
+                    }
                 },
                 "children": []
             }
