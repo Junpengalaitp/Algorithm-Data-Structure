@@ -476,9 +476,83 @@
                                     },
                                     {
                                         "data": {
+                                            "id": "c83eafkc0m80",
+                                            "created": 1609054706559,
+                                            "text": "update the number string to empty and operator to current operator at operation loop end"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
                                             "id": "c83e9rlbz200",
                                             "created": 1609054654376,
                                             "text": "sum the stack elements as result"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c88afw1rzts0",
+                                    "created": 1609551649607,
+                                    "text": "LC 224. Basic Calculator"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c88ag1vvacg0",
+                                            "created": 1609551662310,
+                                            "text": "convert the expression to reverse polish notation"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c88agcgrt5s0",
+                                            "created": 1609551685343,
+                                            "text": "first, we need a stack and a queue, for converting"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c88ajmssyts0",
+                                            "created": 1609551942930,
+                                            "text": "finally, use a stack for RPN calculation"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c89xof9r8880",
+                                    "created": 1609718763846,
+                                    "text": "LC 224. Basic Calculator, LC 772. Basic Calculator III"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c89xotgt2bs0",
+                                            "created": 1609718794747,
+                                            "text": "use recursive approach, when encounter '(', do the recusive call and pass the result to num. End recursive call when encounter ')'"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c89xpz1muww0",
+                                            "created": 1609718885255,
+                                            "text": "use a queue(deque) for recursive helper method"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c89xqc1ib7k0",
+                                            "created": 1609718913545,
+                                            "text": "the rest are the same with the no bracket calculation as LC 227"
                                         },
                                         "children": []
                                     }
