@@ -1,0 +1,114 @@
+{
+    "root": {
+        "data": {
+            "id": "c8kze1sfgbk0",
+            "created": 1610840752601,
+            "text": "Graph"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c8kze99ai5c0",
+                    "created": 1610840768859,
+                    "text": "Topological sort"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c8kzfcrctw80",
+                            "created": 1610840854845,
+                            "text": "Leetcode 207. Course Schedule "
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8kzmu6k5u80",
+                                    "created": 1610841441319,
+                                    "text": "Build the graph use a map, use a set to record visited state"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8kznpbglp40",
+                                    "created": 1610841509096,
+                                    "text": "Backtracking + DFS, visit every course in graph, if the node is visited, it means the graph contains a cycle"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8l033nb9yo0",
+                            "created": 1610842715750,
+                            "text": "Leetcode 210. Course Schedule II"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8l038maf5c0",
+                                    "created": 1610842726572,
+                                    "text": "use node indegree"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8l03lw8kv40",
+                                    "created": 1610842755471,
+                                    "text": "use bfs, start with degree 0 nodes"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8l03r7e69k0",
+                                    "created": 1610842767030,
+                                    "text": "for each degree 0 nodes, remove it from queue and it edges(all it children degree minus 1)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8l05iqhheo0",
+                                    "created": 1610842905322,
+                                    "text": "if all the nodes are visited, there is a path"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8l0r3c903s0",
+                            "created": 1610844595821,
+                            "text": "Leetcode 1462. Course Schedule IV"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8l0r6b6qnc0",
+                                    "created": 1610844602287,
+                                    "text": "for every query pairs, do a DFS/BFS"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8l0rfcoqhs0",
+                                    "created": 1610844621969,
+                                    "text": "use a cache"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
