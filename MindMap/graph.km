@@ -178,6 +178,55 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8rrgj4kx0g0",
+                            "created": 1611529297887,
+                            "text": "Leetcode 329. Longest Increasing Path in a Matrix"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8rrxyjzb7k0",
+                                    "created": 1611530663662,
+                                    "text": "can be solved by applying reversed topological sort"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8rryhxgil40",
+                                    "created": 1611530705835,
+                                    "text": "mark every nodes outdegree, start search on outdegree 0 nodes, use bfs search level by level"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8rryu2j4i80",
+                                    "created": 1611530732263,
+                                    "text": "when visiting a node, decrement the outdegree of  it's neighbors which are less than the current node"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8rs047vd080",
+                                    "created": 1611530832718,
+                                    "text": "add outdegree 0 neighbors to the queue"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8rs0o2jsiw0",
+                                    "created": 1611530875932,
+                                    "text": "return level as answer"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
