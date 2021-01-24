@@ -7,7 +7,7 @@ class AbstractGraph(abc.ABC):
         self.directed = directed
 
     @abc.abstractmethod
-    def add_edge(self, v1, v2, weight):
+    def add_edge(self, v1, v2, weight) -> None:
         pass
 
     @abc.abstractmethod
@@ -19,13 +19,13 @@ class AbstractGraph(abc.ABC):
         pass
 
     @abc.abstractmethod
-    def get_edge_weight(self, v1, v2):
+    def get_edge_weight(self, v1, v2) -> int:
         pass
 
     @abc.abstractmethod
-    def display(self):
+    def display(self) -> None:
         pass
 
-    def is_out_of_bound(self, v):
+    def is_out_of_bound(self, v) -> bool:
         return v < 0 or v >= self.num_vertices
 

@@ -103,6 +103,81 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8qyxc1db9k0",
+                            "created": 1611448802459,
+                            "text": "Leetcode  802. Find Eventual Safe States"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8qyxd6fiqg0",
+                                    "created": 1611448804942,
+                                    "text": "reverse the egdes, and do a topological sort on reversed graph"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8qyzkeb4dc0",
+                            "created": 1611448977384,
+                            "text": "Leetcode 1136. Parallel Courses"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8qz0eevx2w0",
+                                    "created": 1611449042722,
+                                    "text": "do a topological sort on course adjacent map, level by level, the level number is the answer"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8qz1ut01yo0",
+                            "created": 1611449156769,
+                            "text": "Leetcode 1245. Tree Diameter"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8qz25lkqn40",
+                                    "created": 1611449180264,
+                                    "text": "it's an undirect graph, but it can be solved by the idea of topological sort"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8qz2piol880",
+                                    "created": 1611449223625,
+                                    "text": "use BFS, start with indegree 1 nodes(leaf nodes, because it's a UDAG),"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8qz3jsdz2w0",
+                                    "created": 1611449289515,
+                                    "text": "search level by level, util 1 or 2 nodes remains, each time add indegree 1 nodes to queue"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8qz53cgfd40",
+                                    "created": 1611449410452,
+                                    "text": "the search pattern is from both ends to the middle, if one node remains, the answer is level number * 2, if two nodes remains the answer is level number * 2 + 1(the edge between the remaining two nodes)"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
