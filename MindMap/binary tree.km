@@ -1,0 +1,81 @@
+{
+    "root": {
+        "data": {
+            "id": "c8ti09xm16o0",
+            "created": 1611705753972,
+            "text": "Binary Tree"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c8ti0oigbsg0",
+                    "created": 1611705785708,
+                    "text": "Leetcode 110. Balanced Binary Tree"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c8ti20r1mmo0",
+                            "created": 1611705890713,
+                            "text": "approach 1(O(NlogN) time and space)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8ti2c8yspk0",
+                                    "created": 1611705915741,
+                                    "text": "function 1: get height of every node"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8ti2mcp2fs0",
+                                    "created": 1611705937734,
+                                    "text": "function 2:  use function 1check every node is balanced"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8ti35ywreg0",
+                                    "created": 1611705980436,
+                                    "text": "main function: check root is balaced and call main function itself on left and right subtree"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c8ti3y62rjs0",
+                            "created": 1611706041819,
+                            "text": "approach 2: (logN time and space)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c8ti47p25aw0",
+                                    "created": 1611706062558,
+                                    "text": "check balance at get height function, if it's not balanced, return an invalid value(exp:Integer.MIN_VALUE)"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c8ti4x3ewm80",
+                                    "created": 1611706117846,
+                                    "text": "main function check is the root height equals invalid value"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
