@@ -1,0 +1,72 @@
+{
+    "root": {
+        "data": {
+            "id": "c94lglnk4bk0",
+            "created": 1612832656166,
+            "text": "Dynamic Programming"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c94lh7ucqa00",
+                    "created": 1612832704466,
+                    "text": "Reverse Thinking"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c94lhct11i80",
+                            "created": 1612832715269,
+                            "text": "Leetcode 5. Longest Palindromic Substring"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c94lhkpaig00",
+                                    "created": 1612832732458,
+                                    "text": "use a 2D matrix as dp table, init with all boolean true values, and process it from right bottom to top left"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c94li3otu140",
+                                    "created": 1612832773789,
+                                    "text": "each row and col index represents substring from row to col + 1"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c94limrhe5s0",
+                                    "created": 1612832815308,
+                                    "text": "if the char at row and the char at col is not equal, then it's cannot be a palindrome, put false in matrix"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c94ljt5cb2w0",
+                                    "created": 1612832907571,
+                                    "text": "if they are equal, it has the possibility to be a palindrome, we further check the substring from row + 1, col - 1 is palindrome or not, which is already exist in the dp table"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c94lkwt3ov40",
+                                    "created": 1612832993902,
+                                    "text": "if the current substring is a palindrome and the length is longer than the current longest, update the current longest with the current substring"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
