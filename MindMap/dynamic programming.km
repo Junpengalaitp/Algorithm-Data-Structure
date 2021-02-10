@@ -61,6 +61,105 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c95ftn2ugu80",
+                            "created": 1612918311298,
+                            "text": "Leetcode 120. Triangle"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c95gbq5t0000",
+                                    "created": 1612919728562,
+                                    "text": "recursive"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c95gbsznsqw0",
+                                            "created": 1612919734721,
+                                            "text": "base case: if level equals trianle size, return 0"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c95gchv9u600",
+                                            "created": 1612919788875,
+                                            "text": "recursive calling level + 1 and add min of current index and index + 1 to current value"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c95gdpzi6r40",
+                                            "created": 1612919884910,
+                                            "text": "use a cahe"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c95gdv4ag400",
+                                            "created": 1612919896083,
+                                            "text": "O(n) time and space, n = total values"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c95gdtistio0",
+                                    "created": 1612919892607,
+                                    "text": "iterative"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c95gecc2cdc0",
+                                            "created": 1612919933558,
+                                            "text": "start from level 1(the second level)"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c95gejur2eg0",
+                                            "created": 1612919949926,
+                                            "text": "update values of each level are the value plus min of upper level col - 1 and col (need to deal with index out of bound) "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c95gfdgaoew0",
+                                            "created": 1612920014355,
+                                            "text": "the min of the last row is the answer"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c95gfkduzyw0",
+                                            "created": 1612920029445,
+                                            "text": "can reuse the triangle itself, no extra space"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c95gfvni7xc0",
+                                            "created": 1612920053973,
+                                            "text": "O(n) time, n = total nodes"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
