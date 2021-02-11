@@ -160,6 +160,99 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c96anve5exs0",
+                            "created": 1613005313618,
+                            "text": "subarray"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c96anz8jph40",
+                                    "created": 1613005321986,
+                                    "text": "Leetcode 53. Maximum Subarray",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c96ao5md0hc0",
+                                            "created": 1613005335882,
+                                            "text": "init max value with the first value in the array ",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c96ap7vhfs80",
+                                            "created": 1613005419152,
+                                            "text": "for each value from index 1 to the end, the max sum ending at current value is max of current value and current value plus max value of index - 1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c96aq2shv0o0",
+                                            "created": 1613005486451,
+                                            "text": "can use a variable to record previous max, so no extra space"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c96aqmjhb600",
+                                    "created": 1613005529442,
+                                    "text": "Leetcode 152. Maximum Product Subarray"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c96ar1tftjs0",
+                                            "created": 1613005562696,
+                                            "text": "init max value, max positive product and min negative product with the first value in the array "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c96arjtzlcg0",
+                                            "created": 1613005601911,
+                                            "text": "for each value from index 1 to the end, if the current value is negative, swap the max postive product and min negative product"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c96as05wi2o0",
+                                            "created": 1613005637460,
+                                            "text": "the max positive product is the max of itself and current value * itself"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c96ashseumo0",
+                                            "created": 1613005675826,
+                                            "text": "the min positive product is the min of itself and current value * itself"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c96asnyrysg0",
+                                            "created": 1613005689272,
+                                            "text": "the max value result is the max of itself and max positive product"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
