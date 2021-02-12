@@ -253,6 +253,106 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c97cn9tthv40",
+                            "created": 1613112468853,
+                            "text": "subsequence"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c97cncjuhqo0",
+                                    "created": 1613112474780,
+                                    "text": "Leetcode 300. Longest increasing subsequence"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c97cnnbowg00",
+                                            "created": 1613112498232,
+                                            "text": "dp approach"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c97cnuk9dt40",
+                                                    "created": 1613112513987,
+                                                    "text": "init a dp table(1D array) with the size of the array and with values 1"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c97coh70fcg0",
+                                                    "created": 1613112563252,
+                                                    "text": "for each element in array[1:], seach all element before it, if the num before is less than it, the dp[i] = max(dp[i], dp[j] + 1)"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c97cq1ptg4g0",
+                                                    "created": 1613112686289,
+                                                    "text": "O(n^2) time and O(n) space"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c97cqauhl0g0",
+                                            "created": 1613112706162,
+                                            "text": "patience sort(binary search)"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c97cqkw6wwg0",
+                                                    "created": 1613112728033,
+                                                    "text": "init a empty list as the best increasing subsequece list"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c97crg9nwqo0",
+                                                    "created": 1613112796328,
+                                                    "text": "for each num in the array, if the num is larger than the last element in the list(or the list is empty), add it to the tail of the list"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c97csdyko2g0",
+                                                    "created": 1613112869668,
+                                                    "text": "else use binary search to replace an element in the list"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c97csz6qf8g0",
+                                                    "created": 1613112915874,
+                                                    "text": "the result is the list size"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c97ct4kz55k0",
+                                                    "created": 1613112927619,
+                                                    "text": "O(nlogn) time and O(n) space"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
