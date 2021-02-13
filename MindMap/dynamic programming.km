@@ -353,6 +353,107 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c983ohfx84g0",
+                            "created": 1613188733758,
+                            "text": "0/1 knapsack"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c983oknsrhc0",
+                                    "created": 1613188740765,
+                                    "text": "416. Partition Equal Subset Sum"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c983p6rw3so0",
+                                            "created": 1613188788902,
+                                            "text": "Basicly this question is asking us are they any combinations that has the target sum, so it's a 0/1 knapsack problem"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c983pzpg55k0",
+                                                    "created": 1613188851881,
+                                                    "text": "O(mn) time and space"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c983q48qig00",
+                                                            "created": 1613188861754,
+                                                            "text": "use a 2D dp table, rows are nums length + 1, cols are target sum + 1"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c983qkhq7zk0",
+                                                            "created": 1613188897126,
+                                                            "text": "first index of each col init to true, because if the target is 0, we can choose nothing to fulfill this target, no matter what the options are"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c983rk3cwvs0",
+                                                            "created": 1613188974622,
+                                                            "text": "iterate from row 1 and col 1, if the upper row with the same col is true, the current cell is true"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c983tnnhwzk0",
+                                                            "created": 1613189139098,
+                                                            "text": "else we substract the current num from col(col is te current  target sum), if the upper row with updated col is true, the current cell is true"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c983ucsgu800",
+                                                            "created": 1613189193818,
+                                                            "text": "return the last row and col as answer"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c983um2i3q80",
+                                                    "created": 1613189214016,
+                                                    "text": "O(mn) time, O(n) space"
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "c983usscgu00",
+                                                            "created": 1613189228639,
+                                                            "text": "because we only care about the previous row, so 1D dp table is enough"
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "c984q3vyyy00",
+                                                            "created": 1613191682092,
+                                                            "text": "topic"
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             }
