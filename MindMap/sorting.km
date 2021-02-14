@@ -1,0 +1,169 @@
+{
+    "root": {
+        "data": {
+            "id": "c99mpogwvs00",
+            "created": 1613343988465,
+            "text": "Sorting"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c99mpvprotc0",
+                    "created": 1613344004238,
+                    "text": "sorting algorithms"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "c99mq59w8k80",
+                    "created": 1613344025046,
+                    "text": "sorting problems",
+                    "layout_right_offset": {
+                        "x": 4,
+                        "y": -25
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c99mqdm33o00",
+                            "created": 1613344043197,
+                            "text": "merge sorted collections"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c99mqqnsls00",
+                                    "created": 1613344071599,
+                                    "text": "Leetcode 21. Merge Two Sorted (Linked)Lists"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c99ms81cg880",
+                                            "created": 1613344187787,
+                                            "text": "sentinel and head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99mspyej9s0",
+                                            "created": 1613344226792,
+                                            "text": "add larger of l1 and l2 to the head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99mt24zcig0",
+                                            "created": 1613344253311,
+                                            "text": "add non-empty list to the head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99mt9f4aew0",
+                                            "created": 1613344269161,
+                                            "text": "return sentinel next"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c99mu61kx6g0",
+                                    "created": 1613344340176,
+                                    "text": "Leetcode 88. Merge Sorted Array"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c99mubd4qyw0",
+                                            "created": 1613344351759,
+                                            "text": "merge backwards, add the larger of two to the tail"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99munzfbls0",
+                                            "created": 1613344379228,
+                                            "text": "O(n) time and O(1) space"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c99mw1haztk0",
+                    "created": 1613344486972,
+                    "text": "Sorted Containers"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c99mw5vu4yo0",
+                            "created": 1613344496557,
+                            "text": "Heap(Priority Queue)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c99mwiwj5nk0",
+                                    "created": 1613344524898,
+                                    "text": "Leetcode 23. Merge k Sorted (Linked)Lists"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c99n5xcwpkg0",
+                                            "created": 1613345261640,
+                                            "text": "sentinel and head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99n6052brk0",
+                                            "created": 1613345267696,
+                                            "text": "use a min head, add all nodes to the heap"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99n675vn7k0",
+                                            "created": 1613345282983,
+                                            "text": "while the heap is not empty, poll the heap top, add the head top to head, and add the node next to the heap if not null"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99n6tnghh40",
+                                            "created": 1613345331935,
+                                            "text": "return sentinel next"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}
