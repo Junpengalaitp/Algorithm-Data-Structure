@@ -12,7 +12,106 @@
                     "created": 1613344004238,
                     "text": "sorting algorithms"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "c9amkfq1th40",
+                            "created": 1613445137562,
+                            "text": "bubble sort"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c9amkhti97c0",
+                            "created": 1613445142125,
+                            "text": "insertion sort"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c9amkkjzx080",
+                            "created": 1613445148080,
+                            "text": "merge sort"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c9amknpg5ko0",
+                            "created": 1613445154940,
+                            "text": "quick sort"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9ap6ykrtcw0",
+                                    "created": 1613452544833,
+                                    "text": "recusive algorithm, find the partition index that devide the array to the lesser half and greater half, then recursive call on left and right of the subarray"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9ap849kar40",
+                                    "created": 1613452635580,
+                                    "text": "partition"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9ap8bziczk0",
+                                            "created": 1613452652387,
+                                            "text": "base case: if the left <= right, meaning that the array has only one element which is already sorted, do nothing"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9ap8v72vso0",
+                                            "created": 1613452694203,
+                                            "text": "find a random element as pivot, swap it with the last element in the array, or just use the last element in the subarray, so no need for swap it to the end"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9apa0jfut40",
+                                            "created": 1613452784199,
+                                            "text": "the partition index start with the leftmost index, if the current element is less than the pivot, swap the partition index element and current element, then increment the partition index by one"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9apazafku00",
+                                            "created": 1613452859841,
+                                            "text": "at the end of the partition, swap the pivot and the partition index element(IMPORTANT), which means the pvoit are at the correct final position is the sorted array, so we can recusively call quick sort on its left and right subarray"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9amleahp400",
+                            "created": 1613445212809,
+                            "text": "heap sort"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c9amkq8q8p40",
+                            "created": 1613445160459,
+                            "text": "bucket sort"
+                        },
+                        "children": []
+                    }
+                ]
             },
             {
                 "data": {
@@ -20,8 +119,8 @@
                     "created": 1613344025046,
                     "text": "sorting problems",
                     "layout_right_offset": {
-                        "x": 4,
-                        "y": -25
+                        "x": 51,
+                        "y": 12
                     }
                 },
                 "children": [
@@ -99,6 +198,107 @@
                                 ]
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9am8d6v3ko0",
+                            "created": 1613444191678,
+                            "text": "general sorting"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9am95y26s00",
+                                    "created": 1613444254273,
+                                    "text": "Leetcode 791. Custom Sort String"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9amau86bpc0",
+                                            "created": 1613444385491,
+                                            "text": "general sorting approach",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c9am9cijru00",
+                                                    "created": 1613444268572,
+                                                    "text": "create an index map for the benchmark string"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9am9u8ez3s0",
+                                                    "created": 1613444307142,
+                                                    "text": "create a character comparator use the index map"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9ama9dc2sg0",
+                                                    "created": 1613444340091,
+                                                    "text": "use the general sorting method use the comparator"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9ambb5era80",
+                                                    "created": 1613444422329,
+                                                    "text": "O(nlogn) time and O(n) space "
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9amb6ta5w80",
+                                            "created": 1613444412889,
+                                            "text": "counting approach"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c9ambqu8ayg0",
+                                                    "created": 1613444456482,
+                                                    "text": "create a counting map for the target string"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9ambybjum00",
+                                                    "created": 1613444472767,
+                                                    "text": "for each char in benchmark string, if the char exists in the counting map, add the number of count of chars to the result string"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9amcnx3hxc0",
+                                                    "created": 1613444528490,
+                                                    "text": "add all remaining chars in the counting map to the result string in terms of the count"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9amd4xayt40",
+                                                    "created": 1613444565507,
+                                                    "text": "O(n + m) time and O(m) space"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -106,7 +306,11 @@
                 "data": {
                     "id": "c99mw1haztk0",
                     "created": 1613344486972,
-                    "text": "Sorted Containers"
+                    "text": "Sorted Containers",
+                    "layout_right_offset": {
+                        "x": 86,
+                        "y": 191
+                    }
                 },
                 "children": [
                     {
