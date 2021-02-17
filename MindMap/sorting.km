@@ -35,7 +35,32 @@
                             "created": 1613445148080,
                             "text": "merge sort"
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9bdqb4sw880",
+                                    "created": 1613521767723,
+                                    "text": "recursive algorithm"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9bdqlrs4h40",
+                                    "created": 1613521790880,
+                                    "text": "split the array from the mid until hit base case, which is the array length is 1 or 0"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9bdr9y8ee00",
+                                    "created": 1613521843513,
+                                    "text": "merge sorted lists(left and right)"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
@@ -99,7 +124,11 @@
                         "data": {
                             "id": "c9amleahp400",
                             "created": 1613445212809,
-                            "text": "heap sort"
+                            "text": "heap sort",
+                            "layout_right_offset": {
+                                "x": 10,
+                                "y": -9
+                            }
                         },
                         "children": []
                     },
@@ -297,6 +326,56 @@
                                         ]
                                     }
                                 ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9bfewxrxbk0",
+                            "created": 1613526517037,
+                            "text": "merge sort problems"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9bff209ss80",
+                                    "created": 1613526528072,
+                                    "text": "剑指offer 51. 数组中的逆序对"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9bffqs9t200",
+                                            "created": 1613526582008,
+                                            "text": "use merge sort"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9bffxq0abc0",
+                                            "created": 1613526597108,
+                                            "text": "in the merge subproblem, if we merged a number from the second array, that means it can form a reversed pair with all remaining numbers in the first array"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9bfhbyf6080",
+                                            "created": 1613526706456,
+                                            "text": "time and space complexity: O(nlogn)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9bfhlu72yg0",
+                                    "created": 1613526727968,
+                                    "text": "Leetcode 315. Count of Smaller Numbers After Self"
+                                },
+                                "children": []
                             }
                         ]
                     }
