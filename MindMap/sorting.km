@@ -17,7 +17,11 @@
                         "data": {
                             "id": "c9amkfq1th40",
                             "created": 1613445137562,
-                            "text": "bubble sort"
+                            "text": "bubble sort",
+                            "layout_right_offset": {
+                                "x": 16,
+                                "y": -115
+                            }
                         },
                         "children": []
                     },
@@ -25,9 +29,54 @@
                         "data": {
                             "id": "c9amkhti97c0",
                             "created": 1613445142125,
-                            "text": "insertion sort"
+                            "text": "insertion sort",
+                            "layout_right_offset": {
+                                "x": 17,
+                                "y": -35
+                            }
                         },
-                        "children": []
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9d9nzh7axc0",
+                                    "created": 1613713421096,
+                                    "text": "two for loops"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9d9o8v5q9s0",
+                                    "created": 1613713441531,
+                                    "text": "outer loop start from 1, end with array length"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9d9opvi1hc0",
+                                    "created": 1613713478557,
+                                    "text": "inner loop start from outer loop, end with 1"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9d9p1xf6g00",
+                                    "created": 1613713504795,
+                                    "text": "if array element in inner loop is smaller than previoues one, swap them"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9d9pmfp7bc0",
+                                    "created": 1613713549436,
+                                    "text": "else break the inner loop"
+                                },
+                                "children": []
+                            }
+                        ]
                     },
                     {
                         "data": {
