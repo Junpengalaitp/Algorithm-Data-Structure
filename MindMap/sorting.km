@@ -427,6 +427,105 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9dg3i05g9s0",
+                            "created": 1613731563546,
+                            "text": "insertion sort problems"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9dg78x1mdc0",
+                                    "created": 1613731857224,
+                                    "text": "Leetcode 147. Insertion Sort List"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9dg7conzq80",
+                                            "created": 1613731865425,
+                                            "text": "Base case: head is null or head.next is null"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dg7mnw6dk0",
+                                            "created": 1613731887146,
+                                            "text": "need a lastSorted pointer to divide the list to sorted and unsorted halfs"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dgbqa6s5k0",
+                                            "created": 1613732208481,
+                                            "text": "every loop start the searh on the next node of lastSorted pointer, call it current node"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dgd0nlt200",
+                                            "created": 1613732309424,
+                                            "text": "if the current node is larger than the lastSotred node, move lastSorted pointer to its next"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dgdtanyjc0",
+                                            "created": 1613732371768,
+                                            "text": "else we need to fina the insertion place in the sorted half"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dge6ms2i80",
+                                            "created": 1613732400799,
+                                            "text": "use a prev pointer, start search from the sentinel node and find the insertion place "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dgevpdtao0",
+                                            "created": 1613732455376,
+                                            "text": "if the prev.next node is larger than current node, insert current node here"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c9dghumgquw0",
+                                                    "created": 1613732688115,
+                                                    "text": "lastSorted.next = curr.next"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9dghywa6nc0",
+                                                    "created": 1613732697416,
+                                                    "text": "curr.next = prev.next"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9dgi8djzfs0",
+                                                    "created": 1613732718051,
+                                                    "text": "prev.next = curr"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
