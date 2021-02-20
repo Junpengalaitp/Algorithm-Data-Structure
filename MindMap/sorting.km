@@ -375,6 +375,31 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9eb876dfog0",
+                                    "created": 1613819386206,
+                                    "text": "剑指 Offer 45. 把数组排成最小的数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9ebaaxztio0",
+                                            "created": 1613819551135,
+                                            "text": "custom comparator"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9ebakwbbc00",
+                                            "created": 1613819572801,
+                                            "text": "compare (numStrA + numStrB) and (numStrB + numStrA)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
