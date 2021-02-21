@@ -400,6 +400,71 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9esetq52v40",
+                                    "created": 1613867864344,
+                                    "text": "Leetcode 75. Sort Colors"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9esewj3fvk0",
+                                            "created": 1613867870448,
+                                            "text": "three pointers"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esf9chhpc0",
+                                            "created": 1613867898347,
+                                            "text": "p0 pointer is the current swap index for number 0"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esfjbtxuo0",
+                                            "created": 1613867920075,
+                                            "text": "p1 pointer is the expore pointer"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esfop4x680",
+                                            "created": 1613867931763,
+                                            "text": "p2 pointer is the current swap index for number 2"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esfve41uo0",
+                                            "created": 1613867946334,
+                                            "text": "while p1 <= p2, if current number is 1, do nothing, just increment p1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esghoefu00",
+                                            "created": 1613867994845,
+                                            "text": "if current number is 0, swap p1 and p0, and increment both"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esgs2498g0",
+                                            "created": 1613868017443,
+                                            "text": "if current number is 2, swap p1 and p2, and decrement p2"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
