@@ -135,9 +135,17 @@
                                 "children": [
                                     {
                                         "data": {
+                                            "id": "c9flv0tkyso0",
+                                            "created": 1613950945803,
+                                            "text": "start with left = 0 and right = length"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
                                             "id": "c9ap8bziczk0",
                                             "created": 1613452652387,
-                                            "text": "base case: if the left <= right, meaning that the array has only one element which is already sorted, do nothing"
+                                            "text": "base case: if the left == right, meaning that the array has only one element which is already sorted, do nothing"
                                         },
                                         "children": []
                                     },
@@ -145,7 +153,7 @@
                                         "data": {
                                             "id": "c9ap8v72vso0",
                                             "created": 1613452694203,
-                                            "text": "find a random element as pivot, swap it with the last element in the array, or just use the last element in the subarray, so no need for swap it to the end"
+                                            "text": "find a random element as pivot, swap it with the last element(right - 1) in the array, or just use the last element in the subarray, so no need for swap it to the end"
                                         },
                                         "children": []
                                     },
