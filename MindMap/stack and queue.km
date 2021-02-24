@@ -544,7 +544,7 @@
                                         "data": {
                                             "id": "c89xpz1muww0",
                                             "created": 1609718885255,
-                                            "text": "use a queue(deque) for recursive helper method"
+                                            "text": "use a queue(deque) to store non-empty chars  in recursive helper method, can not use string and call recursively on substring because it will produce duplicates"
                                         },
                                         "children": []
                                     },
