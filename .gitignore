@@ -1,0 +1,4 @@
+/.idea/
+*.pyc
+code/.idea/
+.DS_Store

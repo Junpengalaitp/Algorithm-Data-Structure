@@ -454,7 +454,7 @@
                                         "data": {
                                             "id": "c83e7ab94wg0",
                                             "created": 1609054460033,
-                                            "text": "if it's an operator or the last element, pop the number from the stack and do operations"
+                                            "text": "if it's an operator or the last element(so cannot use else if in case the last element is digit), pop the number from the stack and do operations"
                                         },
                                         "children": []
                                     },
@@ -544,7 +544,7 @@
                                         "data": {
                                             "id": "c89xpz1muww0",
                                             "created": 1609718885255,
-                                            "text": "use a queue(deque) for recursive helper method"
+                                            "text": "use a queue(deque) to store non-empty chars  in recursive helper method, can not use string and call recursively on substring because it will produce duplicates"
                                         },
                                         "children": []
                                     },

@@ -1,0 +1,747 @@
+{
+    "root": {
+        "data": {
+            "id": "c99mpogwvs00",
+            "created": 1613343988465,
+            "text": "Sorting"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "c99mpvprotc0",
+                    "created": 1613344004238,
+                    "text": "sorting algorithms"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c9amkfq1th40",
+                            "created": 1613445137562,
+                            "text": "bubble sort",
+                            "layout_right_offset": {
+                                "x": 16,
+                                "y": -115
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c9amkhti97c0",
+                            "created": 1613445142125,
+                            "text": "insertion sort",
+                            "layout_right_offset": {
+                                "x": 17,
+                                "y": -35
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9d9nzh7axc0",
+                                    "created": 1613713421096,
+                                    "text": "two for loops"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9d9o8v5q9s0",
+                                    "created": 1613713441531,
+                                    "text": "outer loop start from 1, end with array length"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9d9opvi1hc0",
+                                    "created": 1613713478557,
+                                    "text": "inner loop start from outer loop, end with 1"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9d9p1xf6g00",
+                                    "created": 1613713504795,
+                                    "text": "if array element in inner loop is smaller than previoues one, swap them"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9d9pmfp7bc0",
+                                    "created": 1613713549436,
+                                    "text": "else break the inner loop"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9amkkjzx080",
+                            "created": 1613445148080,
+                            "text": "merge sort"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9bdqb4sw880",
+                                    "created": 1613521767723,
+                                    "text": "recursive algorithm"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9bdqlrs4h40",
+                                    "created": 1613521790880,
+                                    "text": "split the array from the mid until hit base case, which is the array length is 1 or 0"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9bdr9y8ee00",
+                                    "created": 1613521843513,
+                                    "text": "merge sorted lists(left and right)"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9amknpg5ko0",
+                            "created": 1613445154940,
+                            "text": "quick sort"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9ap6ykrtcw0",
+                                    "created": 1613452544833,
+                                    "text": "recusive algorithm, find the partition index that devide the array to the lesser half and greater half, then recursive call on left and right of the subarray"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9ap849kar40",
+                                    "created": 1613452635580,
+                                    "text": "partition"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9flv0tkyso0",
+                                            "created": 1613950945803,
+                                            "text": "start with left = 0 and right = length"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9ap8bziczk0",
+                                            "created": 1613452652387,
+                                            "text": "base case: if the left == right, meaning that the array has only one element which is already sorted, do nothing"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9ap8v72vso0",
+                                            "created": 1613452694203,
+                                            "text": "find a random element as pivot, swap it with the last element(right - 1) in the array, or just use the last element in the subarray, so no need for swap it to the end"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9apa0jfut40",
+                                            "created": 1613452784199,
+                                            "text": "the partition index start with the leftmost index, if the current element is less than the pivot, swap the partition index element and current element, then increment the partition index by one"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9apazafku00",
+                                            "created": 1613452859841,
+                                            "text": "at the end of the partition, swap the pivot and the partition index element(IMPORTANT), which means the pvoit are at the correct final position is the sorted array, so we can recusively call quick sort on its left and right subarray"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9amleahp400",
+                            "created": 1613445212809,
+                            "text": "heap sort",
+                            "layout_right_offset": {
+                                "x": 10,
+                                "y": -9
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c9amkq8q8p40",
+                            "created": 1613445160459,
+                            "text": "bucket sort"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c99mq59w8k80",
+                    "created": 1613344025046,
+                    "text": "sorting problems",
+                    "layout_right_offset": {
+                        "x": 51,
+                        "y": 12
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c99mqdm33o00",
+                            "created": 1613344043197,
+                            "text": "merge sorted collections"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c99mqqnsls00",
+                                    "created": 1613344071599,
+                                    "text": "Leetcode 21. Merge Two Sorted (Linked)Lists"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c99ms81cg880",
+                                            "created": 1613344187787,
+                                            "text": "sentinel and head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99mspyej9s0",
+                                            "created": 1613344226792,
+                                            "text": "add larger of l1 and l2 to the head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99mt24zcig0",
+                                            "created": 1613344253311,
+                                            "text": "add non-empty list to the head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99mt9f4aew0",
+                                            "created": 1613344269161,
+                                            "text": "return sentinel next"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c99mu61kx6g0",
+                                    "created": 1613344340176,
+                                    "text": "Leetcode 88. Merge Sorted Array"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c99mubd4qyw0",
+                                            "created": 1613344351759,
+                                            "text": "merge backwards, add the larger of two to the tail"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99munzfbls0",
+                                            "created": 1613344379228,
+                                            "text": "O(n) time and O(1) space"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9am8d6v3ko0",
+                            "created": 1613444191678,
+                            "text": "general sorting"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9am95y26s00",
+                                    "created": 1613444254273,
+                                    "text": "Leetcode 791. Custom Sort String"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9amau86bpc0",
+                                            "created": 1613444385491,
+                                            "text": "general sorting approach",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c9am9cijru00",
+                                                    "created": 1613444268572,
+                                                    "text": "create an index map for the benchmark string"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9am9u8ez3s0",
+                                                    "created": 1613444307142,
+                                                    "text": "create a character comparator use the index map"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9ama9dc2sg0",
+                                                    "created": 1613444340091,
+                                                    "text": "use the general sorting method use the comparator"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9ambb5era80",
+                                                    "created": 1613444422329,
+                                                    "text": "O(nlogn) time and O(n) space "
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9amb6ta5w80",
+                                            "created": 1613444412889,
+                                            "text": "counting approach"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c9ambqu8ayg0",
+                                                    "created": 1613444456482,
+                                                    "text": "create a counting map for the target string"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9ambybjum00",
+                                                    "created": 1613444472767,
+                                                    "text": "for each char in benchmark string, if the char exists in the counting map, add the number of count of chars to the result string"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9amcnx3hxc0",
+                                                    "created": 1613444528490,
+                                                    "text": "add all remaining chars in the counting map to the result string in terms of the count"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9amd4xayt40",
+                                                    "created": 1613444565507,
+                                                    "text": "O(n + m) time and O(m) space"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9eb876dfog0",
+                                    "created": 1613819386206,
+                                    "text": "剑指 Offer 45. 把数组排成最小的数"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9ebaaxztio0",
+                                            "created": 1613819551135,
+                                            "text": "custom comparator"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9ebakwbbc00",
+                                            "created": 1613819572801,
+                                            "text": "compare (numStrA + numStrB) and (numStrB + numStrA)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9esetq52v40",
+                                    "created": 1613867864344,
+                                    "text": "Leetcode 75. Sort Colors"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9esewj3fvk0",
+                                            "created": 1613867870448,
+                                            "text": "three pointers"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esf9chhpc0",
+                                            "created": 1613867898347,
+                                            "text": "p0 pointer is the current swap index for number 0"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esfjbtxuo0",
+                                            "created": 1613867920075,
+                                            "text": "p1 pointer is the expore pointer"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esfop4x680",
+                                            "created": 1613867931763,
+                                            "text": "p2 pointer is the current swap index for number 2"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esfve41uo0",
+                                            "created": 1613867946334,
+                                            "text": "while p1 <= p2, if current number is 1, do nothing, just increment p1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esghoefu00",
+                                            "created": 1613867994845,
+                                            "text": "if current number is 0, swap p1 and p0, and increment both"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9esgs2498g0",
+                                            "created": 1613868017443,
+                                            "text": "if current number is 2, swap p1 and p2, and decrement p2"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9bfewxrxbk0",
+                            "created": 1613526517037,
+                            "text": "merge sort problems"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9bff209ss80",
+                                    "created": 1613526528072,
+                                    "text": "剑指offer 51. 数组中的逆序对"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9bffqs9t200",
+                                            "created": 1613526582008,
+                                            "text": "use merge sort"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9bffxq0abc0",
+                                            "created": 1613526597108,
+                                            "text": "in the merge subproblem, if we merged a number from the second array, that means it can form a reversed pair with all remaining numbers in the first array"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9bfhbyf6080",
+                                            "created": 1613526706456,
+                                            "text": "time and space complexity: O(nlogn)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9bfhlu72yg0",
+                                    "created": 1613526727968,
+                                    "text": "Leetcode 315. Count of Smaller Numbers After Self"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9dg3i05g9s0",
+                            "created": 1613731563546,
+                            "text": "insertion sort problems"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9dg78x1mdc0",
+                                    "created": 1613731857224,
+                                    "text": "Leetcode 147. Insertion Sort List"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9dg7conzq80",
+                                            "created": 1613731865425,
+                                            "text": "Base case: head is null or head.next is null"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dg7mnw6dk0",
+                                            "created": 1613731887146,
+                                            "text": "need a lastSorted pointer to divide the list to sorted and unsorted halfs"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dgbqa6s5k0",
+                                            "created": 1613732208481,
+                                            "text": "every loop start the searh on the next node of lastSorted pointer, call it current node"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dgd0nlt200",
+                                            "created": 1613732309424,
+                                            "text": "if the current node is larger than the lastSotred node, move lastSorted pointer to its next"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dgdtanyjc0",
+                                            "created": 1613732371768,
+                                            "text": "else we need to fina the insertion place in the sorted half"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dge6ms2i80",
+                                            "created": 1613732400799,
+                                            "text": "use a prev pointer, start search from the sentinel node and find the insertion place "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9dgevpdtao0",
+                                            "created": 1613732455376,
+                                            "text": "if the prev.next node is larger than current node, insert current node here"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c9dghumgquw0",
+                                                    "created": 1613732688115,
+                                                    "text": "lastSorted.next = curr.next"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9dghywa6nc0",
+                                                    "created": 1613732697416,
+                                                    "text": "curr.next = prev.next"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9dgi8djzfs0",
+                                                    "created": 1613732718051,
+                                                    "text": "prev.next = curr"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c99mw1haztk0",
+                    "created": 1613344486972,
+                    "text": "Sorted Containers",
+                    "layout_right_offset": {
+                        "x": 86,
+                        "y": 191
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c99mw5vu4yo0",
+                            "created": 1613344496557,
+                            "text": "Heap(Priority Queue)"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c99mwiwj5nk0",
+                                    "created": 1613344524898,
+                                    "text": "Leetcode 23. Merge k Sorted (Linked)Lists"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c99n5xcwpkg0",
+                                            "created": 1613345261640,
+                                            "text": "sentinel and head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99n6052brk0",
+                                            "created": 1613345267696,
+                                            "text": "use a min head, add all nodes to the heap"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99n675vn7k0",
+                                            "created": 1613345282983,
+                                            "text": "while the heap is not empty, poll the heap top, add the head top to head, and add the node next to the heap if not null"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c99n6tnghh40",
+                                            "created": 1613345331935,
+                                            "text": "return sentinel next"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9i4nazm2lc0",
+                                    "created": 1614207062024,
+                                    "text": "CCI 17.09. the kth number"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9i4nv4aeh40",
+                                            "created": 1614207105842,
+                                            "text": "find the kth number that  do not contains factor other than  3, 5 or 7 "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9i4ox5fwvk0",
+                                            "created": 1614207188630,
+                                            "text": "use a heap, init with first number 1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9i4ps0iclc0",
+                                            "created": 1614207255812,
+                                            "text": "every time poll the min element from the heap, and multiply it with 3, 5, and 7, add these 3 result to the heap and decrement k by one   "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9i4qyzhqrc0",
+                                            "created": 1614207349352,
+                                            "text": "if k == 0, return the polled number"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9i4r5zango0",
+                                            "created": 1614207364577,
+                                            "text": "need to deal with duplicates here(3 * 5 == 5 * 3), so use a seen set or use sortedSet(TreeSet)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "classic",
+    "version": "1.4.43"
+}

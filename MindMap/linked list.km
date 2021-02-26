@@ -338,10 +338,65 @@
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "c7old5q061s0",
-                                            "created": 1607551268646,
-                                            "text": "Sentinel node, use a count(start at 1) first connect all nodes before m, then use count and n to find the tail of the list. Finally set prev to the tail and reverse the head",
-                                            "layout": null
+                                            "id": "c9fksirslk80",
+                                            "created": 1613947928675,
+                                            "text": "use a new sentinel node and point next for head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9fkt87ekzc0",
+                                            "created": 1613947984038,
+                                            "text": "use a headTail pointer for pointing to the last node of first part, this is for connecting the reversed head at the end"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9fkurovhxs0",
+                                            "created": 1613948104818,
+                                            "text": "use a count to get the reversed part, start with 1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9fkvbl3dy80",
+                                            "created": 1613948148125,
+                                            "text": "while count is less than left, move the head and headTail to its next, so at the end of the loop, the head is stopped at the beginning of the reversing part, and the headTail is stopped at its prev node"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9fkx1zc9lk0",
+                                            "created": 1613948283947,
+                                            "text": "use a new pointer for the tail. while count is less than right, move tail to its next, so at the end of the loop, the tail is stopped at the last node of the reversing part"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9fkyj88t8o0",
+                                            "created": 1613948399854,
+                                            "text": "start the reverse linked list process, but point prev node to the tail next, and disconnect the tail node with its next"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9fl0423c7k0",
+                                            "created": 1613948523559,
+                                            "text": "because we need connect the reversed part to head and tail, the end condition for reverse linked list is head.next != null, and need to connect head.next to prev at the end of while loop"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9fl1fm0iw80",
+                                            "created": 1613948627072,
+                                            "text": "connect headTail to reversed head and return the sentinel.next"
                                         },
                                         "children": []
                                     }

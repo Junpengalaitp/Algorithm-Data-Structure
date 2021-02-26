@@ -1,4 +1,4 @@
-from Code.graph.AbstractGraph import AbstractGraph
+from graph.python.AbstractGraph import AbstractGraph
 
 
 class AdjacencySetGraph(AbstractGraph):
