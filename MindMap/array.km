@@ -43,10 +43,48 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "c9kob8wiml40",
+                    "created": 1614465659225,
+                    "text": "Two Pointers",
+                    "layout_mind_offset": {
+                        "x": 392,
+                        "y": 147
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c9kobjsvexc0",
+                            "created": 1614465682949,
+                            "text": "LC 15. 3Sum"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9kobn3jv4g0",
+                                    "created": 1614465690125,
+                                    "text": "sort the num array, iterate every num, use the num as target and do a 2 sum on the remaining array"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9kocceth8g0",
+                                    "created": 1614465745226,
+                                    "text": "if the target is larger than 0, break, and if the current num is the same with the previous one, skip it"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
-    "template": "default",
+    "template": "right",
     "theme": "classic",
     "version": "1.4.43"
 }
