@@ -445,6 +445,72 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9j77c6j8vs0",
+                                    "created": 1614315834079,
+                                    "text": "LC 2. Add Two Numbers"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9j77n6hawg0",
+                                            "created": 1614315858020,
+                                            "text": "create a head, a sentinel node point to head, and a carry on value 0"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9j784m15jc0",
+                                            "created": 1614315895966,
+                                            "text": "while one of the node is not null or carry is not 0"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c9j78trcwuo0",
+                                                    "created": 1614315950708,
+                                                    "text": "sum the carry on and nodes value, and move nodes to its next"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9j796axf880",
+                                                    "created": 1614315978012,
+                                                    "text": "if the sum >= 10, sum -= 10 and carry become 1"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9j79hhnu1s0",
+                                                    "created": 1614316002364,
+                                                    "text": "else the carry is 0"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9j79lq4xuo0",
+                                                    "created": 1614316011584,
+                                                    "text": "create a new node with sum value as head.next"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9j79wxzd340",
+                                                    "created": 1614316036003,
+                                                    "text": "return sentinel.next"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
