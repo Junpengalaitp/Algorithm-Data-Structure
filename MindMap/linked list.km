@@ -511,6 +511,55 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9mfbnuv2jk0",
+                                    "created": 1614643421701,
+                                    "text": "LC 19. Remove Nth Node From End of List"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9mfbrtuy3c0",
+                                            "created": 1614643430347,
+                                            "text": "sentinel node, points to head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9mfbxmuoug0",
+                                            "created": 1614643442984,
+                                            "text": "use fast and slow pointers, fast move n - 1 steps first"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9mfc6u5j2g0",
+                                            "created": 1614643463017,
+                                            "text": "use a prev pointer, starts with sentinel, move prev, slow and fast pointer simultaneously util fast.next is null"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9mfd8arqq80",
+                                            "created": 1614643544562,
+                                            "text": "assgin prev.next to slow.next"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9mfdguff5k0",
+                                            "created": 1614643563165,
+                                            "text": "return sentinel.next (cannot return head, in case there is only one head node and n = 1)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
