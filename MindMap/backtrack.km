@@ -53,6 +53,56 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9n9u7hg4480",
+                            "created": 1614729508277,
+                            "text": "LC 22. Generate Parentheses"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9n9uamvxi80",
+                                    "created": 1614729515136,
+                                    "text": "keep left and right count in backtrack function"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9n9uomb1ls0",
+                                    "created": 1614729545576,
+                                    "text": "end condition: path length is 2 * n"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9n9v70unig0",
+                                    "created": 1614729585638,
+                                    "text": "two forks in backtracking"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9n9vqz7jkw0",
+                                            "created": 1614729629074,
+                                            "text": "if left count is less than n, backtrack path + '(' and increment left by 1"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9n9wbhh37s0",
+                                            "created": 1614729673714,
+                                            "text": "if right count is less than left, backtrack path + ')' and increment right by 1"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
