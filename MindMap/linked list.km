@@ -560,6 +560,71 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9o29cs7s4g0",
+                                    "created": 1614809686352,
+                                    "text": "LC 24. Swap Nodes in Pairs"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9o29gje36w0",
+                                            "created": 1614809694526,
+                                            "text": "sentinel node, points to head, and a prev node points to sentinel"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9o29xixgc00",
+                                            "created": 1614809731503,
+                                            "text": "iterate the node while head and head.next is not null"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9o2bpp78ls0",
+                                            "created": 1614809871196,
+                                            "text": "in loop, use a variable points to the next node "
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9o2c5leo8g0",
+                                            "created": 1614809905795,
+                                            "text": "assgin prev.next to next node, and update prev to head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9o2co8v07c0",
+                                            "created": 1614809946396,
+                                            "text": "head.next = next.next"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9o2cv0t0v40",
+                                            "created": 1614809961146,
+                                            "text": "next.next = head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9o2cxtp2bk0",
+                                            "created": 1614809967247,
+                                            "text": "head = head.next"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
