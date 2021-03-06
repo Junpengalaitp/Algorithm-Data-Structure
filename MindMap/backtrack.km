@@ -122,14 +122,6 @@
                         "children": [
                             {
                                 "data": {
-                                    "id": "c9pvh0tmdb40",
-                                    "created": 1614993659373,
-                                    "text": "sort the candidates if it's not already sorted"
-                                },
-                                "children": []
-                            },
-                            {
-                                "data": {
                                     "id": "c9pvi6bul940",
                                     "created": 1614993749723,
                                     "text": "every candidate can reuse itself but not previous candidates, so backtrack on current idx to the end of candidate"
@@ -156,7 +148,40 @@
                                 "data": {
                                     "id": "c9pvl9gpiww0",
                                     "created": 1614993991640,
-                                    "text": "if the current sum is larger than the target, do nothing, because the candidates are sorted"
+                                    "text": "if the current sum is larger than the target, do nothing"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9qo3j666e80",
+                            "created": 1615074414403,
+                            "text": "LC 40. Combination Sum II"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9qo3p0wnx40",
+                                    "created": 1615074427145,
+                                    "text": "sort the array"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9qo46e7eow0",
+                                    "created": 1615074464955,
+                                    "text": "every candidate cannot reuse itself, so backtrack on current idx + 1 to the end of candidate"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9qo4gllr600",
+                                    "created": 1615074487170,
+                                    "text": "also, to avoid duplicates, every time backtrack skop those candidates that are same with previous candidate"
                                 },
                                 "children": []
                             }
