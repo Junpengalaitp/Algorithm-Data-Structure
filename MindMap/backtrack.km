@@ -186,6 +186,64 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9tbeyrzn1s0",
+                            "created": 1615343315821,
+                            "text": "LC 46. Permutations"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9tbfty8kpk0",
+                                    "created": 1615343383679,
+                                    "text": "base case: path size equals to total candidates size"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9tbg7dud340",
+                                    "created": 1615343412921,
+                                    "text": "every time on backtracking, candidates become a new array of all elements exclude the current candidate"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "c9tbhj3zbug0",
+                            "created": 1615343516810,
+                            "text": "LC 47. Permutations II"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c9tbhmpbrts0",
+                                    "created": 1615343524631,
+                                    "text": "base case: path size equals to total candidates size"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9tbib8mxpc0",
+                                    "created": 1615343578041,
+                                    "text": "to aviod dupilcated path, sort the array and skip the candidates that are the same with previous candidate"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c9tbive90kg0",
+                                    "created": 1615343621917,
+                                    "text": "every time on backtracking, candidates become a new array of all elements exclude the current candidate"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
