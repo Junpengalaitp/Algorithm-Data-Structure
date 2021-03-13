@@ -3,28 +3,32 @@
         "data": {
             "id": "c94lglnk4bk0",
             "created": 1612832656166,
-            "text": "Dynamic Programming"
+            "text": "Dynamic Programming",
+            "expandState": "expand"
         },
         "children": [
             {
                 "data": {
                     "id": "c94lh7ucqa00",
                     "created": 1612832704466,
-                    "text": "Reverse Thinking"
+                    "text": "Reverse Thinking",
+                    "expandState": "expand"
                 },
                 "children": [
                     {
                         "data": {
                             "id": "c94lhct11i80",
                             "created": 1612832715269,
-                            "text": "Leetcode 5. Longest Palindromic Substring"
+                            "text": "Leetcode 5. Longest Palindromic Substring",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "c94lhkpaig00",
                                     "created": 1612832732458,
-                                    "text": "use a 2D matrix as dp table, init with all boolean true values, and process it from right bottom to top left"
+                                    "text": "use a 2D matrix as dp table, init with all boolean true values, and process it from right bottom to top left",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -32,7 +36,8 @@
                                 "data": {
                                     "id": "c94li3otu140",
                                     "created": 1612832773789,
-                                    "text": "each row and col index represents substring from row to col + 1"
+                                    "text": "each row and col index represents substring from row to col + 1",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -40,7 +45,8 @@
                                 "data": {
                                     "id": "c94limrhe5s0",
                                     "created": 1612832815308,
-                                    "text": "if the char at row and the char at col is not equal, then it's cannot be a palindrome, put false in matrix"
+                                    "text": "if the char at row and the char at col is not equal, then it's cannot be a palindrome, put false in matrix",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -48,7 +54,8 @@
                                 "data": {
                                     "id": "c94ljt5cb2w0",
                                     "created": 1612832907571,
-                                    "text": "if they are equal, it has the possibility to be a palindrome, we further check the substring from row + 1, col - 1 is palindrome or not, which is already exist in the dp table"
+                                    "text": "if they are equal, it has the possibility to be a palindrome, we further check the substring from row + 1, col - 1 is palindrome or not, which is already exist in the dp table",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             },
@@ -56,7 +63,8 @@
                                 "data": {
                                     "id": "c94lkwt3ov40",
                                     "created": 1612832993902,
-                                    "text": "if the current substring is a palindrome and the length is longer than the current longest, update the current longest with the current substring"
+                                    "text": "if the current substring is a palindrome and the length is longer than the current longest, update the current longest with the current substring",
+                                    "expandState": "expand"
                                 },
                                 "children": []
                             }
@@ -66,21 +74,24 @@
                         "data": {
                             "id": "c95ftn2ugu80",
                             "created": 1612918311298,
-                            "text": "Leetcode 120. Triangle"
+                            "text": "Leetcode 120. Triangle",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "c95gbq5t0000",
                                     "created": 1612919728562,
-                                    "text": "recursive"
+                                    "text": "recursive",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "c95gbsznsqw0",
                                             "created": 1612919734721,
-                                            "text": "base case: if level equals trianle size, return 0"
+                                            "text": "base case: if level equals trianle size, return 0",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -88,7 +99,8 @@
                                         "data": {
                                             "id": "c95gchv9u600",
                                             "created": 1612919788875,
-                                            "text": "recursive calling level + 1 and add min of current index and index + 1 to current value"
+                                            "text": "recursive calling level + 1 and add min of current index and index + 1 to current value",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -96,7 +108,8 @@
                                         "data": {
                                             "id": "c95gdpzi6r40",
                                             "created": 1612919884910,
-                                            "text": "use a cahe"
+                                            "text": "use a cahe",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -104,7 +117,8 @@
                                         "data": {
                                             "id": "c95gdv4ag400",
                                             "created": 1612919896083,
-                                            "text": "O(n) time and space, n = total values"
+                                            "text": "O(n) time and space, n = total values",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -114,14 +128,16 @@
                                 "data": {
                                     "id": "c95gdtistio0",
                                     "created": 1612919892607,
-                                    "text": "iterative"
+                                    "text": "iterative",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "c95gecc2cdc0",
                                             "created": 1612919933558,
-                                            "text": "start from level 1(the second level)"
+                                            "text": "start from level 1(the second level)",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -129,7 +145,8 @@
                                         "data": {
                                             "id": "c95gejur2eg0",
                                             "created": 1612919949926,
-                                            "text": "update values of each level are the value plus min of upper level col - 1 and col (need to deal with index out of bound) "
+                                            "text": "update values of each level are the value plus min of upper level col - 1 and col (need to deal with index out of bound) ",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -137,7 +154,8 @@
                                         "data": {
                                             "id": "c95gfdgaoew0",
                                             "created": 1612920014355,
-                                            "text": "the min of the last row is the answer"
+                                            "text": "the min of the last row is the answer",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -145,7 +163,8 @@
                                         "data": {
                                             "id": "c95gfkduzyw0",
                                             "created": 1612920029445,
-                                            "text": "can reuse the triangle itself, no extra space"
+                                            "text": "can reuse the triangle itself, no extra space",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -153,7 +172,8 @@
                                         "data": {
                                             "id": "c95gfvni7xc0",
                                             "created": 1612920053973,
-                                            "text": "O(n) time, n = total nodes"
+                                            "text": "O(n) time, n = total nodes",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -165,7 +185,8 @@
                         "data": {
                             "id": "c96anve5exs0",
                             "created": 1613005313618,
-                            "text": "subarray"
+                            "text": "subarray",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
@@ -189,7 +210,8 @@
                                         "data": {
                                             "id": "c96ap7vhfs80",
                                             "created": 1613005419152,
-                                            "text": "for each value from index 1 to the end, the max sum ending at current value is max of current value and current value plus max value of index - 1"
+                                            "text": "for each value from index 1 to the end, the max sum ending at current value is max of current value and current value plus max value of index - 1",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -197,7 +219,8 @@
                                         "data": {
                                             "id": "c96aq2shv0o0",
                                             "created": 1613005486451,
-                                            "text": "can use a variable to record previous max, so no extra space"
+                                            "text": "can use a variable to record previous max, so no extra space",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -207,14 +230,16 @@
                                 "data": {
                                     "id": "c96aqmjhb600",
                                     "created": 1613005529442,
-                                    "text": "Leetcode 152. Maximum Product Subarray"
+                                    "text": "Leetcode 152. Maximum Product Subarray",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "c96ar1tftjs0",
                                             "created": 1613005562696,
-                                            "text": "init max value, max positive product and min negative product with the first value in the array "
+                                            "text": "init max value, max positive product and min negative product with the first value in the array ",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -222,7 +247,8 @@
                                         "data": {
                                             "id": "c96arjtzlcg0",
                                             "created": 1613005601911,
-                                            "text": "for each value from index 1 to the end, if the current value is negative, swap the max postive product and min negative product"
+                                            "text": "for each value from index 1 to the end, if the current value is negative, swap the max postive product and min negative product",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -230,7 +256,8 @@
                                         "data": {
                                             "id": "c96as05wi2o0",
                                             "created": 1613005637460,
-                                            "text": "the max positive product is the max of itself and current value * itself"
+                                            "text": "the max positive product is the max of itself and current value * itself",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -238,7 +265,8 @@
                                         "data": {
                                             "id": "c96ashseumo0",
                                             "created": 1613005675826,
-                                            "text": "the min positive product is the min of itself and current value * itself"
+                                            "text": "the min positive product is the min of itself and current value * itself",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
@@ -246,7 +274,8 @@
                                         "data": {
                                             "id": "c96asnyrysg0",
                                             "created": 1613005689272,
-                                            "text": "the max value result is the max of itself and max positive product"
+                                            "text": "the max value result is the max of itself and max positive product",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     }
@@ -258,28 +287,32 @@
                         "data": {
                             "id": "c97cn9tthv40",
                             "created": 1613112468853,
-                            "text": "subsequence"
+                            "text": "subsequence",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "c97cncjuhqo0",
                                     "created": 1613112474780,
-                                    "text": "Leetcode 300. Longest increasing subsequence"
+                                    "text": "Leetcode 300. Longest increasing subsequence",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
                                             "id": "c97cnnbowg00",
                                             "created": 1613112498232,
-                                            "text": "dp approach"
+                                            "text": "dp approach",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "c97cnuk9dt40",
                                                     "created": 1613112513987,
-                                                    "text": "init a dp table(1D array) with the size of the array and with values 1"
+                                                    "text": "init a dp table(1D array) with the size of the array and with values 1",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
@@ -287,7 +320,8 @@
                                                 "data": {
                                                     "id": "c97coh70fcg0",
                                                     "created": 1613112563252,
-                                                    "text": "for each element in array[1:], seach all element before it, if the num before is less than it, the dp[i] = max(dp[i], dp[j] + 1)"
+                                                    "text": "for each element in array[1:], seach all element before it, if the num before is less than it, the dp[i] = max(dp[i], dp[j] + 1)",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
@@ -295,7 +329,8 @@
                                                 "data": {
                                                     "id": "c97cq1ptg4g0",
                                                     "created": 1613112686289,
-                                                    "text": "O(n^2) time and O(n) space"
+                                                    "text": "O(n^2) time and O(n) space",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
@@ -305,14 +340,16 @@
                                         "data": {
                                             "id": "c97cqauhl0g0",
                                             "created": 1613112706162,
-                                            "text": "patience sort(binary search)"
+                                            "text": "patience sort(binary search)",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
                                                 "data": {
                                                     "id": "c97cqkw6wwg0",
                                                     "created": 1613112728033,
-                                                    "text": "init a empty list as the best increasing subsequece list"
+                                                    "text": "init a empty list as the best increasing subsequece list",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
@@ -320,7 +357,8 @@
                                                 "data": {
                                                     "id": "c97crg9nwqo0",
                                                     "created": 1613112796328,
-                                                    "text": "for each num in the array, if the num is larger than the last element in the list(or the list is empty), add it to the tail of the list"
+                                                    "text": "for each num in the array, if the num is larger than the last element in the list(or the list is empty), add it to the tail of the list",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
@@ -328,7 +366,8 @@
                                                 "data": {
                                                     "id": "c97csdyko2g0",
                                                     "created": 1613112869668,
-                                                    "text": "else use binary search to replace an element in the list"
+                                                    "text": "else use binary search to replace an element in the list",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
@@ -336,7 +375,8 @@
                                                 "data": {
                                                     "id": "c97csz6qf8g0",
                                                     "created": 1613112915874,
-                                                    "text": "the result is the list size"
+                                                    "text": "the result is the list size",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
@@ -344,7 +384,8 @@
                                                 "data": {
                                                     "id": "c97ct4kz55k0",
                                                     "created": 1613112927619,
-                                                    "text": "O(nlogn) time and O(n) space"
+                                                    "text": "O(nlogn) time and O(n) space",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
@@ -356,155 +397,251 @@
                     },
                     {
                         "data": {
-                            "id": "c983ohfx84g0",
-                            "created": 1613188733758,
-                            "text": "0/1 knapsack"
+                            "id": "c9vvkvgqx880",
+                            "created": 1615603320908,
+                            "text": "Leetcode 55. Jump Game",
+                            "expandState": "expand"
                         },
                         "children": [
                             {
                                 "data": {
-                                    "id": "c983oknsrhc0",
-                                    "created": 1613188740765,
-                                    "text": "416. Partition Equal Subset Sum"
+                                    "id": "c9vvl6qfr1s0",
+                                    "created": 1615603345438,
+                                    "text": "dynamic programming",
+                                    "expandState": "expand"
                                 },
                                 "children": [
                                     {
                                         "data": {
-                                            "id": "c983p6rw3so0",
-                                            "created": 1613188788902,
-                                            "text": "Basicly this question is asking us are they any combinations that has the target sum, so it's a 0/1 knapsack problem"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "c983pzpg55k0",
-                                                    "created": 1613188851881,
-                                                    "text": "O(mn) time and space"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c983q48qig00",
-                                                            "created": 1613188861754,
-                                                            "text": "use a 2D dp table, rows are nums length + 1, cols are target sum + 1"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c983qkhq7zk0",
-                                                            "created": 1613188897126,
-                                                            "text": "first index of each col init to true, because if the target is 0, we can choose nothing to fulfill this target, no matter what the options are"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c983rk3cwvs0",
-                                                            "created": 1613188974622,
-                                                            "text": "iterate from row 1 and col 1, if the upper row with the same col is true, the current cell is true"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c983tnnhwzk0",
-                                                            "created": 1613189139098,
-                                                            "text": "else we substract the current num from col(col is te current  target sum), if the upper row with updated col is true, the current cell is true"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c983ucsgu800",
-                                                            "created": 1613189193818,
-                                                            "text": "return the last row and col as answer"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c983um2i3q80",
-                                                    "created": 1613189214016,
-                                                    "text": "O(mn) time, O(n) space"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c983usscgu00",
-                                                            "created": 1613189228639,
-                                                            "text": "because we only care about the previous row, so 1D dp table is enough"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c984q3vyyy00",
-                                                            "created": 1613191682092,
-                                                            "text": "have to iterative backwards or use a temp array"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "data": {
-                            "id": "c98udta6hoo0",
-                            "created": 1613264067494,
-                            "text": "state machine"
-                        },
-                        "children": [
-                            {
-                                "data": {
-                                    "id": "c98udvxts5s0",
-                                    "created": 1613264073278,
-                                    "text": "stock problem"
-                                },
-                                "children": [
-                                    {
-                                        "data": {
-                                            "id": "c98udzxxx1k0",
-                                            "created": 1613264081992,
-                                            "text": "3 options each day: buy, sell and reset"
+                                            "id": "c9vvlanq0mg0",
+                                            "created": 1615603353981,
+                                            "text": "the last position is reachable",
+                                            "expandState": "expand"
                                         },
                                         "children": []
                                     },
                                     {
                                         "data": {
-                                            "id": "c98ufsqmx2g0",
-                                            "created": 1613264223041,
-                                            "text": "state transfer"
+                                            "id": "c9vvm0mhbag0",
+                                            "created": 1615603410502,
+                                            "text": "iterate backwards, each index loop to the farest to see if any are reachale"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9vvn78fbw00",
+                                            "created": 1615603503254,
+                                            "text": "time complexity O(n^2), space complexity O(1) (can reuse the input array)"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9vvnnypa7k0",
+                                    "created": 1615603539671,
+                                    "text": "greedy"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9vvnq8h1ig0",
+                                            "created": 1615603544616,
+                                            "text": "init a reachable index, start with the last index"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9vvo9z8afs0",
+                                            "created": 1615603587592,
+                                            "text": "iterate backwards, each index check its value + index is greater than or equal to the reachable index, if it is, update reachable index to current index"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9vvp4f5bs80",
+                                            "created": 1615603653858,
+                                            "text": "return the reachable index is 0"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c98udta6hoo0",
+                    "created": 1613264067494,
+                    "text": "state machine",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c98udvxts5s0",
+                            "created": 1613264073278,
+                            "text": "stock problem",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c98udzxxx1k0",
+                                    "created": 1613264081992,
+                                    "text": "3 options each day: buy, sell and reset",
+                                    "expandState": "expand"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "c98ufsqmx2g0",
+                                    "created": 1613264223041,
+                                    "text": "state transfer",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c98ug00iaeo0",
+                                            "created": 1613264238875,
+                                            "text": "0(holding no stock), 1(holding a stock)",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c98ugmpxdzc0",
+                                            "created": 1613264288301,
+                                            "text": "0 can result from selling a stock(1 -> 0) or do noting(reset) when holding no stock(0 -> 0)",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c98uhq8n15c0",
+                                            "created": 1613264374327,
+                                            "text": "1 can result from buying a stock(0 -> 1) or do noting(reset) when holding a stock(1 -> 1)",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c98ui3g1a7s0",
+                                    "created": 1613264403073,
+                                    "text": "dp table",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c98ui6jxlbk0",
+                                            "created": 1613264409839,
+                                            "text": "dp[i][k][0]: state which is holding no stock at day i with max K transactions, equals to max of reset(dp[i-1][k][0]) or selling (prices[i] + dp[i-1][k][1])",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c98ujlhqm0o0",
+                                            "created": 1613264520722,
+                                            "text": "dp[i][k][1]: state which is holding a stock at day i with max K transactions,equals to max of reset(dp[i-1][k][1]) or buying (dp[i-1][k-1][0] - prices[i])",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c98un8ua3800",
+                                            "created": 1613264806639,
+                                            "text": "base cases",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "c98ug00iaeo0",
-                                                    "created": 1613264238875,
-                                                    "text": "0(holding no stock), 1(holding a stock)"
+                                                    "id": "c98unfrk4gw0",
+                                                    "created": 1613264821712,
+                                                    "text": "dp[-1][k][0] = 0, before start, no action can be taken",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
                                             {
                                                 "data": {
-                                                    "id": "c98ugmpxdzc0",
-                                                    "created": 1613264288301,
-                                                    "text": "0 can result from selling a stock(1 -> 0) or do noting(reset) when holding no stock(0 -> 0)"
+                                                    "id": "c98unuytzr40",
+                                                    "created": 1613264854803,
+                                                    "text": "dp[-1][k][1] = 0, before start, no action can be taken",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
                                             {
                                                 "data": {
-                                                    "id": "c98uhq8n15c0",
-                                                    "created": 1613264374327,
-                                                    "text": "1 can result from buying a stock(0 -> 1) or do noting(reset) when holding a stock(1 -> 1)"
+                                                    "id": "c98uo0riq540",
+                                                    "created": 1613264867422,
+                                                    "text": "dp[i][0][0] = 0, with no transaction permit, no action can be taken",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c98uo8x3wrc0",
+                                                    "created": 1613264885174,
+                                                    "text": "dp[i][0][1] = 0, with no transaction permit, no action can be taken",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c98uqg1dazk0",
+                                    "created": 1613265057397,
+                                    "text": "Leetcode 121. Best Time to Buy and Sell Stock",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c98ur2xfqg00",
+                                            "created": 1613265107226,
+                                            "text": "can take only one transaction, so k = 1",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c98urvx9fuo0",
+                                                    "created": 1613265170342,
+                                                    "text": "dp[i][1][0] = max(dp[i-1][1][0], dp[i-1][1][1] + prices[i])",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c98us09sd400",
+                                                    "created": 1613265179806,
+                                                    "text": "dp[i][1][1] = max(dp[i-1][1][1], dp[i-1][0][0] - prices[i]) \n\t        = max(dp[i-1][1][1], -prices[i]) (k = 0 is a base case)",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
@@ -512,124 +649,18 @@
                                     },
                                     {
                                         "data": {
-                                            "id": "c98ui3g1a7s0",
-                                            "created": 1613264403073,
-                                            "text": "dp table"
+                                            "id": "c98usmtpsmw0",
+                                            "created": 1613265228900,
+                                            "text": "all k in formula are 1, so we can eliminate k",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "c98ui6jxlbk0",
-                                                    "created": 1613264409839,
-                                                    "text": "dp[i][k][0]: state which is holding no stock at day i with max K transactions, equals to max of reset(dp[i-1][k][0]) or selling (prices[i] + dp[i-1][k][1])"
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c98ujlhqm0o0",
-                                                    "created": 1613264520722,
-                                                    "text": "dp[i][k][1]: state which is holding a stock at day i with max K transactions,equals to max of reset(dp[i-1][k][1]) or buying (dp[i-1][k-1][0] - prices[i])"
-                                                },
-                                                "children": []
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c98un8ua3800",
-                                                    "created": 1613264806639,
-                                                    "text": "base cases"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c98unfrk4gw0",
-                                                            "created": 1613264821712,
-                                                            "text": "dp[-1][k][0] = 0, before start, no action can be taken"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c98unuytzr40",
-                                                            "created": 1613264854803,
-                                                            "text": "dp[-1][k][1] = 0, before start, no action can be taken"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c98uo0riq540",
-                                                            "created": 1613264867422,
-                                                            "text": "dp[i][0][0] = 0, with no transaction permit, no action can be taken"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c98uo8x3wrc0",
-                                                            "created": 1613264885174,
-                                                            "text": "dp[i][0][1] = 0, with no transaction permit, no action can be taken"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "c98uqg1dazk0",
-                                            "created": 1613265057397,
-                                            "text": "Leetcode 121. Best Time to Buy and Sell Stock"
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "c98ur2xfqg00",
-                                                    "created": 1613265107226,
-                                                    "text": "can take only one transaction, so k = 1"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c98urvx9fuo0",
-                                                            "created": 1613265170342,
-                                                            "text": "dp[i][1][0] = max(dp[i-1][1][0], dp[i-1][1][1] + prices[i])"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c98us09sd400",
-                                                            "created": 1613265179806,
-                                                            "text": "dp[i][1][1] = max(dp[i-1][1][1], dp[i-1][0][0] - prices[i]) \n\t        = max(dp[i-1][1][1], -prices[i]) (k = 0 is a base case)"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c98usmtpsmw0",
-                                                    "created": 1613265228900,
-                                                    "text": "all k in formula are 1, so we can eliminate k"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c98uuar9ddk0",
-                                                            "created": 1613265359359,
-                                                            "text": "dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])\ndp[i][1] = max(dp[i-1][1], -prices[i])"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c98uuixi2s80",
-                                                    "created": 1613265377151,
-                                                    "text": "do not need a dp table, just two variables for recording, O(n) time and O(1) space"
+                                                    "id": "c98uuar9ddk0",
+                                                    "created": 1613265359359,
+                                                    "text": "dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])\ndp[i][1] = max(dp[i-1][1], -prices[i])",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
@@ -637,58 +668,46 @@
                                     },
                                     {
                                         "data": {
-                                            "id": "c98uwjvel0g0",
-                                            "created": 1613265535929,
-                                            "text": "Leetcode 122. Best Time to Buy and Sell Stock II"
+                                            "id": "c98uuixi2s80",
+                                            "created": 1613265377151,
+                                            "text": "do not need a dp table, just two variables for recording, O(n) time and O(1) space",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c98uwjvel0g0",
+                                    "created": 1613265535929,
+                                    "text": "Leetcode 122. Best Time to Buy and Sell Stock II",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c98ux1k28lk0",
+                                            "created": 1613265574425,
+                                            "text": "can take any amount of transactions, k = inf, which can mean k = k - 1",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "c98ux1k28lk0",
-                                                    "created": 1613265574425,
-                                                    "text": "can take any amount of transactions, k = inf, which can mean k = k - 1"
+                                                    "id": "c98uxsbmv000",
+                                                    "created": 1613265632689,
+                                                    "text": "dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])",
+                                                    "expandState": "expand"
                                                 },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c98uxsbmv000",
-                                                            "created": 1613265632689,
-                                                            "text": "dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c98uxvr42ns0",
-                                                            "created": 1613265640155,
-                                                            "text": "dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])            = max(dp[i-1][k][1], dp[i-1][k][0] - prices[i])"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
+                                                "children": []
                                             },
                                             {
                                                 "data": {
-                                                    "id": "c98uy92snyo0",
-                                                    "created": 1613265669160,
-                                                    "text": "k in not going to change in formula, so we can eliminate k"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c98uylhqtpk0",
-                                                            "created": 1613265696185,
-                                                            "text": "dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])\ndp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c98uz3cn53c0",
-                                                    "created": 1613265735058,
-                                                    "text": "just need one extra varible to store dp[i-1][0], O(n) time and O(1) space "
+                                                    "id": "c98uxvr42ns0",
+                                                    "created": 1613265640155,
+                                                    "text": "dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])            = max(dp[i-1][k][1], dp[i-1][k][0] - prices[i])",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
@@ -696,113 +715,18 @@
                                     },
                                     {
                                         "data": {
-                                            "id": "c98v03fyfww0",
-                                            "created": 1613265813623,
-                                            "text": "Leetcode 309 Best Time to Buy and Sell Stock with Cooldown",
-                                            "layout_right_offset": {
-                                                "x": -4,
-                                                "y": 45
-                                            }
+                                            "id": "c98uy92snyo0",
+                                            "created": 1613265669160,
+                                            "text": "k in not going to change in formula, so we can eliminate k",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "c98v0b52cmw0",
-                                                    "created": 1613265830379,
-                                                    "text": "same with LC 122, just change the holding state result from buying from i - 1 to i - 2"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c98v171d0yo0",
-                                                            "created": 1613265899812,
-                                                            "text": "dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c98v1a4zujk0",
-                                                            "created": 1613265906562,
-                                                            "text": "dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i])"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "c98v1lp1u0g0",
-                                            "created": 1613265931719,
-                                            "text": "Leetcode 714 Best Time to Buy and Sell Stock with Transaction Fee",
-                                            "layout_right_offset": {
-                                                "x": -5,
-                                                "y": 106
-                                            }
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "c98v20ydom80",
-                                                    "created": 1613265964935,
-                                                    "text": "same with LC 122, just subtract fee from selling price"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c98v2bvcw540",
-                                                            "created": 1613265988698,
-                                                            "text": "dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])"
-                                                        },
-                                                        "children": []
-                                                    },
-                                                    {
-                                                        "data": {
-                                                            "id": "c98v2fgv2ow0",
-                                                            "created": 1613265996527,
-                                                            "text": "dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i] - fee)"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            }
-                                        ]
-                                    },
-                                    {
-                                        "data": {
-                                            "id": "c98v2p06jgw0",
-                                            "created": 1613266017287,
-                                            "text": "Leetcode 123 Best Time to Buy and Sell Stock III",
-                                            "layout_right_offset": {
-                                                "x": 3,
-                                                "y": 160
-                                            }
-                                        },
-                                        "children": [
-                                            {
-                                                "data": {
-                                                    "id": "c98v40sxmm00",
-                                                    "created": 1613266121334,
-                                                    "text": "k = 2, can not simplify formula using k"
-                                                },
-                                                "children": [
-                                                    {
-                                                        "data": {
-                                                            "id": "c98v4ib3wfk0",
-                                                            "created": 1613266159438,
-                                                            "text": "dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])\ndp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])"
-                                                        },
-                                                        "children": []
-                                                    }
-                                                ]
-                                            },
-                                            {
-                                                "data": {
-                                                    "id": "c98vd8phrs80",
-                                                    "created": 1613266843818,
-                                                    "text": "have to do a loop regrading to k, and dp[0][k][1] = -prices[0]"
+                                                    "id": "c98uylhqtpk0",
+                                                    "created": 1613265696185,
+                                                    "text": "dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])\ndp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
@@ -810,28 +734,279 @@
                                     },
                                     {
                                         "data": {
-                                            "id": "c98vq9e1kns0",
-                                            "created": 1613267864036,
-                                            "text": "Leetcode 188. Best Time to Buy and Sell Stock IV",
-                                            "layout_right_offset": {
-                                                "x": -5,
-                                                "y": 196
-                                            }
+                                            "id": "c98uz3cn53c0",
+                                            "created": 1613265735058,
+                                            "text": "just need one extra varible to store dp[i-1][0], O(n) time and O(1) space ",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c98v03fyfww0",
+                                    "created": 1613265813623,
+                                    "text": "Leetcode 309 Best Time to Buy and Sell Stock with Cooldown",
+                                    "layout_right_offset": {
+                                        "x": -4,
+                                        "y": 45
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c98v0b52cmw0",
+                                            "created": 1613265830379,
+                                            "text": "same with LC 122, just change the holding state result from buying from i - 1 to i - 2",
+                                            "expandState": "expand"
                                         },
                                         "children": [
                                             {
                                                 "data": {
-                                                    "id": "c98vqfmrdkw0",
-                                                    "created": 1613267877624,
-                                                    "text": "k = any, but if k > n/2(n = days), the k is meaning less, which we can solve it as leetcode 122"
+                                                    "id": "c98v171d0yo0",
+                                                    "created": 1613265899812,
+                                                    "text": "dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             },
                                             {
                                                 "data": {
-                                                    "id": "c98vrzjs6k00",
-                                                    "created": 1613267999345,
-                                                    "text": "else we can solve it the same way with LC 123"
+                                                    "id": "c98v1a4zujk0",
+                                                    "created": 1613265906562,
+                                                    "text": "dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i])",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c98v1lp1u0g0",
+                                    "created": 1613265931719,
+                                    "text": "Leetcode 714 Best Time to Buy and Sell Stock with Transaction Fee",
+                                    "layout_right_offset": {
+                                        "x": -5,
+                                        "y": 106
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c98v20ydom80",
+                                            "created": 1613265964935,
+                                            "text": "same with LC 122, just subtract fee from selling price",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c98v2bvcw540",
+                                                    "created": 1613265988698,
+                                                    "text": "dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c98v2fgv2ow0",
+                                                    "created": 1613265996527,
+                                                    "text": "dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i] - fee)",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c98v2p06jgw0",
+                                    "created": 1613266017287,
+                                    "text": "Leetcode 123 Best Time to Buy and Sell Stock III",
+                                    "layout_right_offset": {
+                                        "x": 3,
+                                        "y": 160
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c98v40sxmm00",
+                                            "created": 1613266121334,
+                                            "text": "k = 2, can not simplify formula using k",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c98v4ib3wfk0",
+                                                    "created": 1613266159438,
+                                                    "text": "dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])\ndp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c98vd8phrs80",
+                                            "created": 1613266843818,
+                                            "text": "have to do a loop regrading to k, and dp[0][k][1] = -prices[0]",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c98vq9e1kns0",
+                                    "created": 1613267864036,
+                                    "text": "Leetcode 188. Best Time to Buy and Sell Stock IV",
+                                    "layout_right_offset": {
+                                        "x": -5,
+                                        "y": 196
+                                    },
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c98vqfmrdkw0",
+                                            "created": 1613267877624,
+                                            "text": "k = any, but if k > n/2(n = days), the k is meaning less, which we can solve it as leetcode 122",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c98vrzjs6k00",
+                                            "created": 1613267999345,
+                                            "text": "else we can solve it the same way with LC 123",
+                                            "expandState": "expand"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c983ohfx84g0",
+                    "created": 1613188733758,
+                    "text": "0/1 knapsack",
+                    "expandState": "expand"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c983oknsrhc0",
+                            "created": 1613188740765,
+                            "text": "416. Partition Equal Subset Sum",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "c983p6rw3so0",
+                                    "created": 1613188788902,
+                                    "text": "Basicly this question is asking us are they any combinations that has the target sum, so it's a 0/1 knapsack problem",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c983pzpg55k0",
+                                            "created": 1613188851881,
+                                            "text": "O(mn) time and space",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c983q48qig00",
+                                                    "created": 1613188861754,
+                                                    "text": "use a 2D dp table, rows are nums length + 1, cols are target sum + 1",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c983qkhq7zk0",
+                                                    "created": 1613188897126,
+                                                    "text": "first index of each col init to true, because if the target is 0, we can choose nothing to fulfill this target, no matter what the options are",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c983rk3cwvs0",
+                                                    "created": 1613188974622,
+                                                    "text": "iterate from row 1 and col 1, if the upper row with the same col is true, the current cell is true",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c983tnnhwzk0",
+                                                    "created": 1613189139098,
+                                                    "text": "else we substract the current num from col(col is te current  target sum), if the upper row with updated col is true, the current cell is true",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c983ucsgu800",
+                                                    "created": 1613189193818,
+                                                    "text": "return the last row and col as answer",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c983um2i3q80",
+                                            "created": 1613189214016,
+                                            "text": "O(mn) time, O(n) space",
+                                            "expandState": "expand"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c983usscgu00",
+                                                    "created": 1613189228639,
+                                                    "text": "because we only care about the previous row, so 1D dp table is enough",
+                                                    "expandState": "expand"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c984q3vyyy00",
+                                                    "created": 1613191682092,
+                                                    "text": "have to iterative backwards or use a temp array",
+                                                    "expandState": "expand"
                                                 },
                                                 "children": []
                                             }
