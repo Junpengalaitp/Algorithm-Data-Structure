@@ -625,6 +625,55 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9xf2wb3pwg0",
+                                    "created": 1615759894343,
+                                    "text": "LC 61. Rotate List"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9xf400lae80",
+                                            "created": 1615759980778,
+                                            "text": "use slow and fast pointers, fast pointer is k steps ahead of slow"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9xf4fnlxh40",
+                                            "created": 1615760014822,
+                                            "text": "record slow.next as new head, then set slow.next to null."
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9xf4zsnd7k0",
+                                            "created": 1615760058662,
+                                            "text": "point fast.next to head, and return new head"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9xf59c5d4w0",
+                                            "created": 1615760079432,
+                                            "text": "if the k is significately larger than list length, calculate list length first and modular k by it"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9xf69k5y400",
+                                            "created": 1615760158281,
+                                            "text": "O(n) time and O(1) space"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
