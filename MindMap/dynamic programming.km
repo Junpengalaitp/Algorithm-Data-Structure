@@ -392,6 +392,47 @@
                                         ]
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "ca3f3rauh9s0",
+                                    "created": 1616369321547,
+                                    "text": "Leetcode 115. Distinct Subsequences"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "ca3f3x6ejs80",
+                                            "created": 1616369334339,
+                                            "text": "use a 2D dp table"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca3f4a1q9pc0",
+                                            "created": 1616369362355,
+                                            "text": "two choices, match s[i+1] and t[j+1] or [s+1] and t[j]"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca3f6076lsw0",
+                                            "created": 1616369497645,
+                                            "text": "if s[i] != t[j], can only match s[i + 1] and t[j]"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ca3f6i83omo0",
+                                            "created": 1616369536883,
+                                            "text": "if s[i] == t[j], can match both"
+                                        },
+                                        "children": []
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -400,7 +441,11 @@
                             "id": "c9vvkvgqx880",
                             "created": 1615603320908,
                             "text": "Leetcode 55. Jump Game",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 20,
+                                "y": 99
+                            }
                         },
                         "children": [
                             {
