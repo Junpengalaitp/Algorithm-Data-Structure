@@ -1,6 +1,6 @@
 ### Leetcode 146. LRU Cache
 * A double linked list Node class that contains four fields
-  * a key, used for removing node from cache map when reached capacity
+  * a key, used for removing node from the cache map when capacity reached
   * a value, to record value
   * prev pointer
   * next pointer

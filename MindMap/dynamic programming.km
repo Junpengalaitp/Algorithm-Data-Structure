@@ -1017,6 +1017,48 @@
                         ]
                     }
                 ]
+            },
+            {
+                "data": {
+                    "id": "ca2uufgx7yw0",
+                    "created": 1616312168318,
+                    "text": "array"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ca2uuhw9me80",
+                            "created": 1616312173599,
+                            "text": "LC 746. Min Cost Climbing Stairs"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca2uuln87400",
+                                    "created": 1616312181760,
+                                    "text": "init a dp array with the input length, and dp[0] = costs[0], dp[1] = costs[1]"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca2uv3n3r680",
+                                    "created": 1616312220934,
+                                    "text": "start from index 2, dp[i] = costs[i] + Math.min(dp[i - 1], dp[i-2]])"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca2uvyj41sw0",
+                                    "created": 1616312288173,
+                                    "text": "return min of dp[n - 1] and dp[n - 2]"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
