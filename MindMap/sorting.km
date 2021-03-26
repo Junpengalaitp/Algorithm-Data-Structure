@@ -282,6 +282,48 @@
                                         "children": []
                                     }
                                 ]
+                            },
+                            {
+                                "data": {
+                                    "id": "c9wl00uazao0",
+                                    "created": 1615675035821,
+                                    "text": "Leetcode 56. Merge Intervals"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "c9wl69v2s140",
+                                            "created": 1615675525644,
+                                            "text": "sort the intervals by its begining index"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "c9wl6gw7lgg0",
+                                            "created": 1615675540950,
+                                            "text": "add the first interval to result, and check the following intervals"
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "c9wl6sqq1400",
+                                                    "created": 1615675566739,
+                                                    "text": "if current inverval[0] > last interval[1], add it to the result"
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "c9wl7atw4fc0",
+                                                    "created": 1615675606113,
+                                                    "text": "else merge it with last interval"
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
                             }
                         ]
                     },
