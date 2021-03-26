@@ -62,7 +62,33 @@
                     "created": 1614574314518,
                     "text": "Backtracking"
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "ca70fzngak80",
+                            "created": 1616734203272,
+                            "text": "LC 79. Word Search"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca70gw4virk0",
+                                    "created": 1616734273982,
+                                    "text": "base case: if word length is 1 it's equal to current cell, return true. If current cell is not equal to the start char, return false"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca70i0tbo740",
+                                    "created": 1616734362532,
+                                    "text": "backtracking is a boolean function. On backtracking, sign the current cell to '#', and backtrack the word substring from index 1, if the result is true, return true and end backtrack, else restore current cell to word start char at end. "
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
