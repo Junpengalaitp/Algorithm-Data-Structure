@@ -79,6 +79,31 @@
                                 "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "ca7y6kiqdb40",
+                            "created": 1616829382794,
+                            "text": "LC 80. remove duplicates from sorted array II"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "ca7y789h91k0",
+                                    "created": 1616829434477,
+                                    "text": "init an index for write pointer, start with 0"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "ca7y7oy6iow0",
+                                    "created": 1616829470800,
+                                    "text": "loop the array, if write pointer is less than 2 or  current num is not equal to write pointer - 2, set the current index element to be current num and increment write pointer"
+                                },
+                                "children": []
+                            }
+                        ]
                     }
                 ]
             }
