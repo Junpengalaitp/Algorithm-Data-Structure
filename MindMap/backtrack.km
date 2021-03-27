@@ -115,21 +115,38 @@
                 "children": [
                     {
                         "data": {
+<<<<<<< HEAD
+                            "id": "ca70fzngak80",
+                            "created": 1616734203272,
+                            "text": "LC 79. Word Search"
+=======
                             "id": "c9pvgtuvluw0",
                             "created": 1614993644212,
                             "text": "LC 39. Combination Sum"
+>>>>>>> 36e180892819eb174bc597212c981812298219d4
                         },
                         "children": [
                             {
                                 "data": {
+<<<<<<< HEAD
+                                    "id": "ca70gw4virk0",
+                                    "created": 1616734273982,
+                                    "text": "base case: if word length is 1 it's equal to current cell, return true. If current cell is not equal to the start char, return false"
+=======
                                     "id": "c9pvi6bul940",
                                     "created": 1614993749723,
                                     "text": "every candidate can reuse itself but not previous candidates, so backtrack on current idx to the end of candidate"
+>>>>>>> 36e180892819eb174bc597212c981812298219d4
                                 },
                                 "children": []
                             },
                             {
                                 "data": {
+<<<<<<< HEAD
+                                    "id": "ca70i0tbo740",
+                                    "created": 1616734362532,
+                                    "text": "backtracking is a boolean function. On backtracking, sign the current cell to '#', and backtrack the word substring from index 1, if the result is true, return true and end backtrack, else restore current cell to word start char at end. "
+=======
                                     "id": "c9pvkq4o0wg0",
                                     "created": 1614993949553,
                                     "text": "if current sum equals to target, add path to the result"
@@ -240,6 +257,7 @@
                                     "id": "c9tbive90kg0",
                                     "created": 1615343621917,
                                     "text": "every time on backtracking, candidates become a new array of all elements exclude the current candidate"
+>>>>>>> 36e180892819eb174bc597212c981812298219d4
                                 },
                                 "children": []
                             }
