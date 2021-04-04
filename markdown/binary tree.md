@@ -9,7 +9,11 @@
 * approach 1(O(NlogN) time and space)
   * function 1: get height of every node
   * function 2:  use function 1check every node is balanced
-  * main function: check root is balaced and call main function itself on left and right subtree
+  * main function: check root is balanced and call main function itself on left and right subtree
 * approach 2: (logN time and space)
   * check balance at get height function, if it's not balanced, return an invalid value(exp:Integer.MIN_VALUE)
   * main function check is the root height equals invalid value
+
+## Binary Search Tree
+### 95. Unique Binary Search Trees II
+* recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
