@@ -17,3 +17,9 @@
 ## Binary Search Tree
 ### 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
+
+### 98. Validate Binary Search Tree
+* recursive approach, init with lower bound of MIN_VALUE and upper bound of MAX_VALUE
+* base case: null root is valid
+* false case: current root value in not in the bound
+* recurse on left child with upper bound of current root value, and recurse on right child with lower bound of current root value
