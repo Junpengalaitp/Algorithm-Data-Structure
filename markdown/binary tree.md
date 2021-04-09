@@ -14,6 +14,14 @@
   * check balance at get height function, if it's not balanced, return an invalid value(exp:Integer.MIN_VALUE)
   * main function check is the root height equals invalid value
 
+### LC 113. Path Sum II
+* backtracking
+  * base case 1: return on null node
+  * add current node value to path
+  * base case 2: if current node is a leaf node and its value equals to the remaining value, add new path to result and remove the last element in path
+  * backtrack on left and right child with remaining value -= current node value
+  * remove the last element in path
+
 ## Binary Search Tree
 ### 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
