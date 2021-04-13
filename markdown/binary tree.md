@@ -5,6 +5,25 @@
   * in the while loop, use another while loop to add current root and it's left child to the stack.
   * when no left child(inside while ends), pop from the stack, add the value to result and sign current root = root.right
 
+### LC 102. Binary Tree Level Order Traversal
+* Iterative
+  * use a queue and do a BFS, and each level only process current nodes in the queue
+* Recursive
+  * pass current level as a parameter in the recursive function.
+  * if current level equals to result size, add a new list(level) to result;
+  * add current root value to current level
+  * recurse on left and right node
+
+### LC 129. Sum Root to Leaf Numbers
+* on recursive, update current num to current num * 10 + root.val
+* if current node is a leaf node, add current num to result
+* recurse on left and right child
+### LC 131. Palindrome Partitioning
+* backtracking approach
+  * enumerate all possible substrings, and add the palindrome substrings subsets to result
+
+* DP with backtracking approach
+  * use a dp table, if the substring head equals to tail and the remaining string in the middle is also palindrome, current substring is a palindrome
 ### LC 110. Balanced Binary Tree
 * approach 1(O(NlogN) time and space)
   * function 1: get height of every node
