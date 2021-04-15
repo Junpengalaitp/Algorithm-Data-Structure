@@ -25,3 +25,11 @@
 * two forks in backtracking
   * if left count is less than n, backtrack path + '(' and increment left by 1
   * if right count is less than left, backtrack path + ')' and increment right by 1
+
+### LC 139. Word Break
+* recursion and memorization
+* the idea is to enumerate all substrings and if current substring is valid, recursively call on the remaining substrings
+* base case: if current start index is the end of the string, return true.
+* loop all substrings start from this index, if current substring is valid and recursion on remaining substring returned true, return true
+* if not return true, return false at end
+* use a cache to cache result
