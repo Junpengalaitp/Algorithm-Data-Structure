@@ -1,3 +1,64 @@
+# Reverse Thinking
+## Sub Array
+### LC 53. Maximum Subarray
+* init max value with the first value in the array 
+* for each value from index 1 to the end, the max sum ending at current value is max of current value and current value plus max value of index - 1
+* can use a variable to record previous max, so no extra space
+
+### LC 152 Maximum Product Subarray
+* init max value, max positive product and min negative product with the first value in the array 
+* for each value from index 1 to the end, if the current value is negative, swap the max positive product and min negative product
+* the max positive product is the max of itself and current value * itself
+* the min positive product is the min of itself and current value * itself
+* the max value result is the max of itself and max positive product
+
+## Subsequence
+### LC 300. Longest increasing subsequence
+* dp approach
+  * init a dp table(1D array) with the size of the array and with values 1
+  * for each element in array[1:], search all element before it, if the num before is less than it, the dp[i] = max(dp[i], dp[j] + 1)
+  * O(n^2) time and O(n) space
+* patience sort(binary search)
+  * init a empty list as the best increasing subsequence list
+  * for each num in the array, if the num is larger than the last element in the list(or the list is empty), add it to the tail of the list
+  * else use binary search to replace an element in the list
+  * the result is the list size
+  * O(nlogn) time and O(n) space
+
+### LC 115. Distinct Subsequences
+* use a 2D dp table
+* two choices, match s[i+1] and t[j+1] or [s+1] and t[j]
+* if s[i] != t[j], can only match s[i + 1] and t[j]
+* if s[i] == t[j], can match both
+### LC 5. Longest Palindromic Substring
+* use a 2D matrix as dp table, init with all boolean true values, and process it from right bottom to top left
+* each row and col index represents substring from row to col + 1
+* if the char at row and the char at col is not equal, then it's cannot be a palindrome, put false in matrix
+* if they are equal, it has the possibility to be a palindrome, we further check the substring from row + 1, col - 1 is palindrome or not, which is already exist in the dp table
+* if the current substring is a palindrome and the length is longer than the current longest, update the current longest with the current substring
+
+### LC 55. Jump Game
+* dynamic programming
+  * the last position is reachable
+  * iterate backwards, each index loop to the farthest to see if any are reachable
+  * time complexity O(n^2), space complexity O(1) (can reuse the input array)
+* greedy
+  * init a reachable index, start with the last index
+  * iterate backwards, each index check its value + index is greater than or equal to the reachable index, if it is, update reachable index to current index
+  * return the reachable index is 0
+### LC 120. Triangle
+* recursive
+  * base case: if level equals triangle size, return 0
+  * recursive calling level + 1 and add min of current index and index + 1 to current value
+  * use a cache
+  * O(n) time and space, n = total values
+* iterative
+  * start from level 1(the second level)
+  * update values of each level are the value plus min of upper level col - 1 and col (need to deal with index out of bound)
+  * the min of the last row is the answer
+  * can reuse the triangle itself, no extra space
+  * O(n) time, n = total nodes
+
 ### LC 91. Decode Ways
 * base case 1: if the string is empty, return 1
 * base case 2: if the string starts with 0, return 0
@@ -5,3 +66,76 @@
 * decode 2: recurse on substring(2) if the number is larger than 26, else is 0
 * total ways = decode 1 + decode 2
 * use cache to reduce duplicated calculation
+
+## State Machine
+### Stock problem
+* 3 options each day: buy, sell and reset
+* state transfer
+  * 0(holding no stock), 1(holding a stock)
+  * 0 can result from selling a stock(1 -> 0) or do noting(reset) when holding no stock(0 -> 0)
+  * 1 can result from buying a stock(0 -> 1) or do noting(reset) when holding a stock(1 -> 1)
+* dp table
+  * dp[i][k][0]: state which is holding no stock at day i with max K transactions, equals to max of reset(dp[i-1][k][0]) or selling (prices[i] + dp[i-1][k][1])
+  * dp[i][k][1]: state which is holding a stock at day i with max K transactions,equals to max of reset(dp[i-1][k][1]) or buying (dp[i-1][k-1][0] - prices[i])
+  * base cases
+    * dp[-1][k][0] = 0, before start, no action can be taken
+    * dp[-1][k][1] = 0, before start, no action can be taken
+    * dp[i][0][0] = 0, with no transaction permit, no action can be taken
+    * dp[i][0][1] = 0, with no transaction permit, no action can be taken
+
+### LC 121. Best Time to Buy and Sell Stock
+* can take only one transaction, so k = 1
+  * dp[i][1][0] = max(dp[i-1][1][0], dp[i-1][1][1] + prices[i])
+  * dp[i][1][1] = max(dp[i-1][1][1], dp[i-1][0][0] - prices[i]) = max(dp[i-1][1][1], -prices[i]) (k = 0 is a base case)
+* all k in formula are 1, so we can eliminate k
+  * dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+  * dp[i][1] = max(dp[i-1][1], -prices[i])  
+* do not need a dp table, just two variables for recording, O(n) time and O(1) space
+
+### LC 122. Best Time to Buy and Sell Stock II
+* can take any amount of transactions, k = inf, which can mean k = k - 1
+  * dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
+  * dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i]) = max(dp[i-1][k][1], dp[i-1][k][0] - prices[i])
+* k in not going to change in formula, so we can eliminate k
+  * dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+  * dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])
+* just need one extra variable to store dp[i-1][0], O(n) time and O(1) space 
+
+### LC 309 Best Time to Buy and Sell Stock with Cooldown
+* same with LC 122, just change the holding state result from buying from i - 1 to i - 2
+  * dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+  * dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i])
+
+### LC 714 Best Time to Buy and Sell Stock with Transaction Fee
+* same with LC 122, just subtract fee from selling price
+  * dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+  * dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i] - fee)
+
+### LC 123 Best Time to Buy and Sell Stock III
+* k = 2, can not simplify formula using k
+  * dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
+  * dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
+* have to do a loop regrading to k, and dp[0][k][1] = -prices[0]
+
+### LC 188. Best Time to Buy and Sell Stock IV
+* k = any, but if k > n/2(n = days), the k is meaning less, which we can solve it as LC 122
+* else we can solve it the same way with LC 123
+
+### 0/1 knapsack
+### LC 416. Partition Equal Subset Sum
+* Basically this question is asking us are they any combinations that has the target sum, so it's a 0/1 knapsack problem
+* O(mn) time and space
+  * use a 2D dp table, rows are nums length + 1, cols are target sum + 1
+  * first index of each col init to true, because if the target is 0, we can choose nothing to fulfill this target, no matter what the options are
+  * iterate from row 1 and col 1, if the upper row with the same col is true, the current cell is true
+  * else we subtract the current num from col(col is te current  target sum), if the upper row with updated col is true, the current cell is true
+  * return the last row and col as answer
+* O(mn) time, O(n) space
+  * because we only care about the previous row, so 1D dp table is enough
+  * have to iterative backwards or use a temp array
+  
+### Array
+### LC 746. Min Cost Climbing Stairs
+* init a dp array with the input length, and dp[0] = costs[0], dp[1] = costs[1]
+* start from index 2, dp[i] = costs[i] + Math.min(dp[i - 1], dp[i-2]])
+* return min of dp[n - 1] and dp[n - 2]
