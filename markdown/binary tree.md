@@ -41,6 +41,9 @@
   * backtrack on left and right child with remaining value -= current node value
   * remove the last element in path
 
+### LC 199. Binary Tree Right Side View
+* level order traversal, use BFS and add each level's last value to result
+
 ## Binary Search Tree
 ### 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
