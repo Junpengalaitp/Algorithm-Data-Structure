@@ -6,11 +6,11 @@
 * can use a variable to record previous max, so no extra space
 
 ### LC 152 Maximum Product Subarray
-* init max value, max positive product and min negative product with the first value in the array 
+* init 3 variables, max value, max positive product and min negative product with the first value in the array 
 * for each value from index 1 to the end, if the current value is negative, swap the max positive product and min negative product
-* the max positive product is the max of itself and current value * itself
-* the min positive product is the min of itself and current value * itself
-* the max value result is the max of itself and max positive product
+* update max positive product to the max of itself and current value * itself
+* update min negative product to the min of itself and current value * itself
+* the max value result is the max of and max positive product
 
 ## Subsequence
 ### LC 300. Longest increasing subsequence
