@@ -139,3 +139,8 @@
 * init a dp array with the input length, and dp[0] = costs[0], dp[1] = costs[1]
 * start from index 2, dp[i] = costs[i] + Math.min(dp[i - 1], dp[i-2]])
 * return min of dp[n - 1] and dp[n - 2]
+
+## Matrix
+### LC 221. Maximal Square
+* max side length min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1])
+* return max side length squared
