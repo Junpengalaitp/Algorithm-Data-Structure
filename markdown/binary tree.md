@@ -45,11 +45,15 @@
 * level order traversal, use BFS and add each level's last value to result
 
 ## Binary Search Tree
-### 95. Unique Binary Search Trees II
+### LC 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
 
-### 98. Validate Binary Search Tree
+### LC 98. Validate Binary Search Tree
 * recursive approach, init with lower bound of MIN_VALUE and upper bound of MAX_VALUE
 * base case: null root is valid
 * false case: current root value in not in the bound
 * recurse on left child with upper bound of current root value, and recurse on right child with lower bound of current root value
+
+### LC 230. Kth Smallest Element in a BST
+* use iterative inorder traversal, when popping front the stack, if k == 1, return the root value, if not, 
+  decrement k by 1 and continue the inorder traversal
