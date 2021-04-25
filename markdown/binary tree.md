@@ -44,6 +44,13 @@
 ### LC 199. Binary Tree Right Side View
 * level order traversal, use BFS and add each level's last value to result
 
+### LC 236. Lowest Common Ancestor of a Binary Tree
+* base case: if node is null or node is p or q, return node
+* recursively call on left and right node
+* return current node if left and right both not null
+* if left is null, return right
+* if right is null, return left
+
 ## Binary Search Tree
 ### LC 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
