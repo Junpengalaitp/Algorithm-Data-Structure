@@ -17,3 +17,13 @@
 * Transpose and Reverse: take the transpose of the matrix(pair change by diagonal), then reverse each row
 * change layer by layer: in every layer, top left -> top right->bottom right->bottom left -> top left 
 
+### LC 240. Search a 2D Matrix II
+* the matrix is stored by the left diagonal, so on the left diagonal, every num have 2 choices for both increment and decrement, so it does not work.
+* but on the right diagonal, there is only one choice for going up or down, so we can start search on top right or bottom left
+* start from bottom left
+  * if current value is smaller than the target, we can only go right
+  * if current value is greater than the target, we can only go up
+ 
+* start from top right
+  * if current value is smaller than the target, we can only go left
+  * if current value is greater than the target, we can only go down
