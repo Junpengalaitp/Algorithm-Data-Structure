@@ -144,3 +144,9 @@
 ### LC 221. Maximal Square
 * max side length min(dp[i - 1][j - 1], dp[i - 1][j], dp[i][j - 1])
 * return max side length squared
+
+## Other
+### LC 279. Perfect Squares
+* init an array with squares from 0 to sqrt(n) + 1
+* init a dp array from 0 to n + 1 with value inf except the first one which is 0 (base case)
+* for every number from 1 to n, loop the squares array, dp[i] = min(dp[i], dp[i - squares[j]] + 1)
