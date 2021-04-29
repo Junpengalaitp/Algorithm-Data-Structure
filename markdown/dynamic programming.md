@@ -76,7 +76,7 @@
   * 1 can result from buying a stock(0 -> 1) or do noting(reset) when holding a stock(1 -> 1)
 * dp table
   * dp[i][k][0]: state which is holding no stock at day i with max K transactions, equals to max of reset(dp[i-1][k][0]) or selling (prices[i] + dp[i-1][k][1])
-  * dp[i][k][1]: state which is holding a stock at day i with max K transactions,equals to max of reset(dp[i-1][k][1]) or buying (dp[i-1][k-1][0] - prices[i])
+  * dp[i][k][1]: state which is holding a stock at day i with max K transactions, equals to max of reset(dp[i-1][k][1]) or buying (dp[i-1][k-1][0] - prices[i])
   * base cases
     * dp[-1][k][0] = 0, before start, no action can be taken
     * dp[-1][k][1] = 0, before start, no action can be taken
@@ -150,3 +150,14 @@
 * init an array with squares from 0 to sqrt(n) + 1
 * init a dp array from 0 to n + 1 with value inf except the first one which is 0 (base case)
 * for every number from 1 to n, loop the squares array, dp[i] = min(dp[i], dp[i - squares[j]] + 1)
+
+### LC 322. Coin Change
+#### iterative
+* init a dp array with length amount + 1, and fill it with amount + 1 (cannot use Integer.MAX_VALUE, it could overflow), and dp[0] = 0
+* loop the dp array and coin array, dp[i] = min(dp[i], dp(i - coin))
+* return dp[-1] if dp[-1] != amount + 1 else -1
+
+#### recursive
+* use a cache, base case 1: return -1 if amount < 0, base case 2: return 0 if amount == 0
+* init min with Integer.MAX_VALUE, loop the coin array, recurse on amount - coin and update the min with result + 1 if result >= 0 and result < min
+* return min if min != amount + 1 else -1
