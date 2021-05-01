@@ -4,3 +4,6 @@
 * use a sentinel to point head
 * while unsorted head is not null, do the while loop, if unsorted head is larger than sorted tail, just move both pointers
 * if unsorted head is smaller than sorted tail, start from the sentinel and to find a proper position to insert.
+
+### LC 328. Odd Even Linked List
+* use odd and even head, merge it in the end
