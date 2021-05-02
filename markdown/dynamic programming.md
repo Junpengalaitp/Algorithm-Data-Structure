@@ -161,3 +161,14 @@
 * use a cache, base case 1: return -1 if amount < 0, base case 2: return 0 if amount == 0
 * init min with Integer.MAX_VALUE, loop the coin array, recurse on amount - coin and update the min with result + 1 if result >= 0 and result < min
 * return min if min != amount + 1 else -1
+
+
+### LC 198. House Robber
+* init a dp array with nums length.
+* base cases: dp[0] = nums[0], dp[1] = nums[1], dp[2] = max(dp[1], dp[0] + dp[2])
+* loop form 3 to the nums length, dp[i] = max(dp[i - 2] + nums[i], dp[i - 3] + nums[i])
+* can reuse nums array as dp array to reduce space
+
+### LC 213. House Robber II
+* the max of rob (nums[1:] and nums[:-1])
+
