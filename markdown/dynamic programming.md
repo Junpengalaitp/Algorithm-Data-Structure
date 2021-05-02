@@ -172,3 +172,7 @@
 ### LC 213. House Robber II
 * the max of rob (nums[1:] and nums[:-1])
 
+### LC 337. House Robber III
+* the helper function return two results: rob current and do not rob current
+* rob current = node.val + helper left no rob + helper right no rob
+* no rob = max(left rob, left no rob) + max(right rob, right no rob)
