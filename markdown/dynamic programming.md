@@ -176,3 +176,6 @@
 * the helper function return two results: rob current and do not rob current
 * rob current = node.val + helper left no rob + helper right no rob
 * no rob = max(left rob, left no rob) + max(right rob, right no rob)
+
+### LC 343. Integer Break
+* dp recursion, the sub problem is to get max of (n - i) * i and dp(n - i) * i
