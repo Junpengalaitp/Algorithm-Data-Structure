@@ -27,3 +27,10 @@
 * start from top right
   * if current value is smaller than the target, we can only go left
   * if current value is greater than the target, we can only go down
+
+
+### LC 334. Increasing Triplet Subsequence
+* init a min and a mid value with the value inf
+* loop the array, if the num is less than or equal to min/mid, update min/mid
+* if the num is greater than mid, return true
+* if no triplet found, return false at end
