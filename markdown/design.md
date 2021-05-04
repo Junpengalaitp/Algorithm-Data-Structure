@@ -1,4 +1,4 @@
-### Leetcode 146. LRU Cache
+### LC 146. LRU Cache
 * A double linked list Node class that contains four fields
   * a key, used for removing node from the cache map when capacity reached
   * a value, to record value
@@ -25,3 +25,12 @@
 * get method
   * if key do not exist, return -1
   * return the node value and move the node to front
+
+### LC 380. Insert Delete GetRandom O(1)
+* back by a map and a list, map stores input as key, list index as value
+* add: add input to list and store the value:index to map
+* remove: 
+  * get the list index of input value from map, set this index value to the the last element in the list
+  * update map index of last value
+  * remove the last element from list and map
+* get random: get random element from list using random index
