@@ -123,7 +123,7 @@
 
 ### 0/1 knapsack
 ### LC 416. Partition Equal Subset Sum
-* Basically this question is asking us are they any combinations that has the target sum, so it's a 0/1 knapsack problem
+* Basically this question is asking us are they any combinations that has the target sum(total sum / 2), so it's a 0/1 knapsack problem
 * O(mn) time and space
   * use a 2D dp table, rows are nums length + 1, cols are target sum + 1
   * first index of each col init to true, because if the target is 0, we can choose nothing to fulfill this target, no matter what the options are
