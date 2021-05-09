@@ -7,3 +7,8 @@
 
 ### LC 328. Odd Even Linked List
 * use odd and even head, merge it in the end
+
+### LC 445. Add Two Numbers II
+* reverse input linked lists
+* do the adding of two numbers
+* reverse the adding result and return it
