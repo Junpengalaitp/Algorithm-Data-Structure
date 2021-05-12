@@ -180,3 +180,15 @@
 ### LC 343. Integer Break
 * dp recursion, the sub problem is to get max of (n - i) * i and dp(n - i) * i
 
+### LC 494. Target Sum
+* backtracking and memorization.
+* base case: the index is at the end of input list, return 1 or 0 (sum equals or not equals target).
+* backtrack on current sum plus and minus current index number.
+* use a 2D cache to cache current index and result(plus + minus)
+
+
+### LC 516. Longest Palindromic Subsequence
+* 2D dp table, dp[row][col] the longest palindromic subsequence represents substring s[col:row+1]
+* int dp table with value 0 and diagonal value with the value 1
+* dp[row][col] = dp[row+1][col-1] + 2 if s[row] == s[col]
+* dp[row][col] = max(dp[row][col-1], dp[row+1][col]) is s[row] != s[col]
