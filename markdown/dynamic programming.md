@@ -186,9 +186,14 @@
 * backtrack on current sum plus and minus current index number.
 * use a 2D cache to cache current index and result(plus + minus)
 
+### LC 5. Longest Palindromic Substring
+* 2D dp boolean table, dp[row][col] represent substring s[row:col+1] is palindromic or not
+* dp[row][col] = true if s[row] == s[col] and s[row, col+1] length less or equal to 3, it's palindromic('a', 'aa', 'aba'(length 3 is palindrome regardless the mid char)
+* dp[row][col] = true if s[row] == s[col] and s[row + 1: col - 1](the mid substring is palindromic)
+* if dp[row][col] == true, update the longest variable
 
 ### LC 516. Longest Palindromic Subsequence
-* 2D dp table, dp[row][col] the longest palindromic subsequence represents substring s[col:row+1]
+* 2D int dp table, dp[row][col] the longest palindromic subsequence represents substring s[col:row+1]
 * int dp table with value 0 and diagonal value with the value 1
 * dp[row][col] = dp[row+1][col-1] + 2 if s[row] == s[col]
 * dp[row][col] = max(dp[row][col-1], dp[row+1][col]) is s[row] != s[col]
