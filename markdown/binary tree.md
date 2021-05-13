@@ -51,6 +51,10 @@
 * if left is null, return right
 * if right is null, return left
 
+### LC 513. Find Bottom Left Tree Value
+* level level traversal
+* can discard all upper levels to reduce memory usage
+
 ## Binary Search Tree
 ### LC 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
