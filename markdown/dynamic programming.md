@@ -197,3 +197,9 @@
 * int dp table with value 0 and diagonal value with the value 1
 * dp[row][col] = dp[row+1][col-1] + 2 if s[row] == s[col]
 * dp[row][col] = max(dp[row][col-1], dp[row+1][col]) is s[row] != s[col]
+
+### LC 518. Coin Change 2
+* can use backtracking, but time will exceed the limit
+* use dynamic programming, dp[i][j] represent how many ways for amount i use coins up to j
+* base case: for amount 0, there is one way to make it: choose no coin
+* can use 1D dp table to reduce space
