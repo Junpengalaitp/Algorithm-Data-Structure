@@ -33,3 +33,9 @@
 * loop all substrings start from this index, if current substring is valid and recursion on remaining substring returned true, return true
 * if not return true, return false at end
 * use a cache to cache result
+
+
+
+### 611. Valid Triangle Number
+* backtrack
+* sort the input, so we can filter out the edges that are already larger than current 2 edges sum
