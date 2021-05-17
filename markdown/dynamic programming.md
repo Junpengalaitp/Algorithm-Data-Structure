@@ -212,6 +212,6 @@
 ### LC 673. Number of Longest Increasing Subsequence
 * same with LC 300, but need an extra dp array for counting
 * if dp[j] < dp[i], before change the dp[i], compare current length of dp[i] and dp[j]
-* if dp[i] >= dp[j], longestCount[i] = longestCount[j]
-* if dp[i] == dp[j] - 1, longestCount[i] += longestCount[j]
-* return how many longestCount equals longest
+* if dp[j] >= dp[i], longestCount[i] = longestCount[j]
+* if dp[j] == dp[i] - 1, longestCount[i] += longestCount[j]
+* at the end, longest count is the sum of the longestCount[i] that dp[i] == longest
