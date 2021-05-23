@@ -219,3 +219,6 @@
 ### LC 718. Maximum Length of Repeated Subarray
 * init a 2D dp table with rows = len(nums2) + 1 and cols = len(nums2) + 1
 * if nums[row-1] == nums[col-1], dp[row][col] = dp[row-1][col-1] + 1
+
+### LC 118. Pascal's Triangle, 119. Pascal's Triangle II
+* every row reuse the prev row res
