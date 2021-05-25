@@ -34,3 +34,10 @@
 * loop the array, if the num is less than or equal to min/mid, update min/mid
 * if the num is greater than mid, return true
 * if no triplet found, return false at end
+
+### LC 900. RLE Iterator
+* init a array pointer and a next pointer with value 0
+* do a while loop while array pointer < array length
+* if next pointer + n is less or equal to array[pointer], return array[pointer + 1]
+* else n = n - (array[pointer] - next pointer), pointer += 2, next pointer = 0
+* return -1 at end
