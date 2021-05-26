@@ -222,3 +222,10 @@
 
 ### LC 118. Pascal's Triangle, 119. Pascal's Triangle II
 * every row reuse the prev row res
+
+### LC 935. Knight Dialer
+* init a static map to record possible end point from 0-9
+* recursive dp, base case: return 1 if n == 1
+* recursively call on next end point and n - 1
+* use a cache, and BigDecimal for dp return value type
+
