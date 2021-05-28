@@ -11,3 +11,7 @@
 * mark adjacent nodes to two opposite color
 * do a graph traversal, if encounter adjacent nodes with same color, return false
 
+### LC 947. Most Stones Removed with Same Row or Column
+* build a doubly linked graph from stones if stones row or col are the same
+* do a dfs/bfs for every stone, increment one for every connected stone in graph
+* at the end of dfs/bfs, decrement res by one, because it cannot remove itself
