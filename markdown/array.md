@@ -41,3 +41,4 @@
 * if next pointer + n is less or equal to array[pointer], return array[pointer + 1]
 * else n = n - (array[pointer] - next pointer), pointer += 2, next pointer = 0
 * return -1 at end
+
