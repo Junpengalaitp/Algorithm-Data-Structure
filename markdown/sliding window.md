@@ -19,4 +19,5 @@
 * if right at the end or the comparison sign is the same with arr[right] and arr[right + 1], update longest
 ### LC 1004. Max Consecutive Ones III
 * two pointers, left and right
-* if encounter zero, decrement k by one, if k is less than zero, increment left until k is 0
+* if encounter zero, decrement k by one, if k is less than zero, start moving left, k += right == 0
+* update longest
