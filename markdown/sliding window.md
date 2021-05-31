@@ -10,6 +10,13 @@
 * return the window size
 
 
+### LC 978. Longest Turbulent Subarray
+* to find out the longest subarray with flip comparison signs
+* init left index = 0, longest = 1
+* do a for loop with variable right from (1, n)
+* comparison sign = Integer.compare(arr[right - 1], arr[right])
+* if sign = 0, move left to right
+* if right at the end or the comparison sign is the same with arr[right] and arr[right + 1], update longest
 ### LC 1004. Max Consecutive Ones III
 * two pointers, left and right
 * if encounter zero, decrement k by one, if k is less than zero, increment left until k is 0

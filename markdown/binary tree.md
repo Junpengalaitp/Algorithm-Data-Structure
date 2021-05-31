@@ -55,6 +55,10 @@
 * level level traversal
 * can discard all upper levels to reduce memory usage
 
+### LC 987. Vertical Order Traversal of a Binary Tree
+* do a traversal and mark each node's coordinates
+* build answer by the coordinates, col are levels, and in each level order nodes val by comparing order row -> val
+
 ## Binary Search Tree
 ### LC 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
