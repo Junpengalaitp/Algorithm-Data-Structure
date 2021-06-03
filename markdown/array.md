@@ -42,3 +42,7 @@
 * else n = n - (array[pointer] - next pointer), pointer += 2, next pointer = 0
 * return -1 at end
 
+
+### LC 1014. Best Sightseeing Pair
+* use a left max pointer
+* one pass, on each iteration, update the max score and check if the current value - distance is greater than max left value, if it is, update max left pointer
