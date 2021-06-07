@@ -15,3 +15,7 @@
 * build a doubly linked graph from stones if stones row or col are the same
 * do a dfs/bfs for every stone, increment one for every connected stone in graph
 * at the end of dfs/bfs, decrement res by one, because it cannot remove itself
+
+## LC 1020. Number of Enclaves
+* do a dfs/bfs the 1s on edges, mark connected 1s to -1
+* count how many 1s left in the gird as answer
