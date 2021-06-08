@@ -46,3 +46,11 @@
 ### LC 1014. Best Sightseeing Pair
 * use a left max pointer
 * one pass, on each iteration, update the max score and check if the current value - distance is greater than max left value, if it is, update max left pointer
+
+### LC 1023. Camelcase Matching
+* two points, on query and pattern
+* do a while loop, the end condition is query length
+* if pattern pointer is less than pattern length and two chars are equal, increment both pointers
+* else if query char is lower case, increment query pointer
+* else break the loop
+* return two pointers equal to their length respectively
