@@ -229,3 +229,25 @@
 * recursively call on next end point and n - 1
 * use a cache, and BigDecimal for dp return value type
 
+### LC 1031. Maximum Sum of Two Non-Overlapping Subarrays
+* 4 dp array tables, with length n + 1
+* first dp table is the sum dp array, record sum to current index
+* second dp table is the first length sum dp array, record max sum to current index
+* third dp table is the second length sum dp array, record max sum to current index
+* fourth dp table is the result max sum dp array, record max sum to current index
+* base cases: 
+  * array[0] = 0 for all arrays
+  * firstLen dp array[i] = 0 for i less than first len
+  * secondLen dp array[i] = 0 for i less than second len
+  * result max dp array[i] = 0 for i less than first len + second len
+
+* firstLen dp[i] = Math.max(dp[i - 1], sums[i] - sums[i - firstLen]) (continue first len sub array ending at i)
+* secondLen dp[i] = Math.max(dp[i - 1], sums[i] - sums[i - secondLen]) (continue second len sub array ending at i)
+* result max dp[i] is max of following:
+  * dp[i-1] current num not a component of both firstLen and second Len array
+  * (sums[i] - sums[i - firstLen]) + secondLen[i - firstLen]: current num is a component of first len array
+  * (sums[i] - sums[i - secondLen]) + firstLen[i - secondLen]: current num is a component of second len array
+
+* return last value of result max sum dp array
+
+
