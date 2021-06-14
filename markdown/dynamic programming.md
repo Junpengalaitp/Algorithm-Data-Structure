@@ -250,4 +250,8 @@
 
 * return last value of result max sum dp array
 
+### LC 1186. Maximum Subarray Sum with One Deletion
+* same as maximum subarray sum, with one extra variable to record the maximum sum with one deleted element(max1)
+* on each loop the max1 equals to the max of (max1 + arr[i]) and max0;
+
 
