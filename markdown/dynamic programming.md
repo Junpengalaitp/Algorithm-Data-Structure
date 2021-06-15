@@ -254,4 +254,9 @@
 * same as maximum subarray sum, with one extra variable to record the maximum sum with one deleted element(max1)
 * on each loop the max1 equals to the max of (max1 + arr[i]) and max0;
 
+### LC 1218. Longest Arithmetic Subsequence of Given Difference
+* use a hash map to record the target(num - difference) subsequence length
+* for every num, put num and value 1 to the map, then check if the target exists in map
+* if target do exists, update the num value to the target value + 1 in map, and update the longest
+
 
