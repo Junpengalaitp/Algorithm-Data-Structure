@@ -62,6 +62,10 @@
 ### LC 1104. Path In Zigzag Labelled Binary Tree
 * a full binary tree characteristics problem
 
+### LC 1261. Find Elements in a Contaminated Binary Tree
+* tree traversal and recover the binary tree
+* in traversal, add value to a set
+
 ## Binary Search Tree
 ### LC 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
