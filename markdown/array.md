@@ -54,3 +54,8 @@
 * else if query char is lower case, increment query pointer
 * else break the loop
 * return two pointers equal to their length respectively
+
+### LC 1297. Maximum Number of Occurrences of a Substring
+* only need to check the min sized substrings
+* check each substring distinct letters is not exceeding max letters
+* use a map as counter and return the max count
