@@ -13,3 +13,7 @@
 ### LC 1131. Maximum of Absolute Value Expression
 * transfer the original expression to four sub expressions
 * return the result as max of the sub expressions
+
+### LC 1262. Greatest Sum Divisible by Three
+* use two sorted containers to sort the 2 smallest number that has modular 1 and 2 of mod 3
+* calculate the sum and mod it by 3, and get answer by checking modular respectively
