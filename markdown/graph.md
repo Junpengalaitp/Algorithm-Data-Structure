@@ -16,6 +16,10 @@
 * do a dfs/bfs for every stone, increment one for every connected stone in graph
 * at the end of dfs/bfs, decrement res by one, because it cannot remove itself
 
-## LC 1020. Number of Enclaves
+### LC 1020. Number of Enclaves
 * do a dfs/bfs the 1s on edges, mark connected 1s to -1
 * count how many 1s left in the gird as answer
+
+
+### LC 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
+* Floyd-Warshall algorithm
