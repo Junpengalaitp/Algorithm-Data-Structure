@@ -204,11 +204,6 @@
 * base case: for amount 0, there is one way to make it: choose no coin
 * can use 1D dp table to reduce space
 
-### LC 560. Subarray Sum Equals K
-* init a sum and a count variables, start with 0
-* use a map to record current sum count, init with value <0, 1>(sum 0 has 1 way)
-* for every value from the array, add it to the sum, and increment the count variable by the sum - k in map(default 0)
-
 ### LC 673. Number of Longest Increasing Subsequence
 * same with LC 300, but need an extra dp array for counting
 * if dp[j] < dp[i], before change the dp[i], compare current length of dp[i] and dp[j]
