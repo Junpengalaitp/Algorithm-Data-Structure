@@ -7,3 +7,6 @@
 * use a pre variable to record odd number occurrence up to nums[i];
 * if pre >= k, add count[pre - k] to res
 * count[pre]++ for each num
+
+### LC 1371. Find the Longest Substring Containing Vowels in Even Counts
+* use xor to count prefix sum
