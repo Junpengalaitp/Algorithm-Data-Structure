@@ -14,3 +14,6 @@
 
 ### LC 1371. Find the Longest Substring Containing Vowels in Even Counts
 * use xor to count prefix sum
+
+### LC 1508. Range Sum of Sorted Subarray Sums
+* prefix sum on prefix sum
