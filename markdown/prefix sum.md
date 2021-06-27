@@ -1,7 +1,8 @@
 ### LC 560. Subarray Sum Equals K
-* init a sum and a count variables, start with 0
-* use a map to record current sum count, init with value <0, 1>(sum 0 has 1 way)
-* for every value from the array, add it to the sum, and increment the count variable by the sum - k in map(default 0)
+* use a map to put prefix sum for every number, and init value 0 -> 1
+* because later we check prefix sum - k result is in map or not, if prefix sum - k == 0, there is one match.
+* check prefix sum - k for every number, if the result in counter map, add map value count.
+* increment prefix sum value in counter map by 1
 
 ### LC 848. Shifting Letters
 * convert the shifts array to reverted prefix sum array
