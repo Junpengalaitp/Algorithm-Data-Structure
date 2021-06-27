@@ -9,9 +9,10 @@
 * in the conversion, mod the number by 26
 * convert the string by the prefix sum array
 ### LC 1248. Count Number of Nice Subarrays
-* use a pre variable to record odd number occurrence up to nums[i];
-* if pre >= k, add count[pre - k] to res
-* count[pre]++ for each num
+* prefix sum: number of odd numbers up to current num
+* use a map to put prefix sum for every number, and init value 0 -> 1
+* because later we check prefix sum - k result is in map or not, if prefix sum - k == 0, there is one match.
+* if prefix sum - k > 0, add counter value of prefix - k to count
 
 ### LC 1371. Find the Longest Substring Containing Vowels in Even Counts
 * use xor to count prefix sum
