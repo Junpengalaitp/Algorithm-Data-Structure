@@ -79,3 +79,8 @@
 ### LC 230. Kth Smallest Element in a BST
 * use iterative inorder traversal, when popping front the stack, if k == 1, return the root value, if not, 
   decrement k by 1 and continue the inorder traversal
+
+
+### LC 1302. Deepest Leaves Sum
+* BFS get the last level
+* return last level sum
