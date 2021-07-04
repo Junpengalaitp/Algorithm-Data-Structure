@@ -21,3 +21,7 @@
 * two pointers, left and right
 * if encounter zero, decrement k by one, if k is less than zero, start moving left, k += right == 0
 * update longest
+
+### LC 1658. Minimum Operations to Reduce X to Zero
+* reverse thinking: find the max length sub array that has sum equal to array sum - x
+* use standard two pointer approach
