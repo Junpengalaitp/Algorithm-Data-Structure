@@ -1,3 +1,8 @@
+### LC 467. Unique Substrings in Wraparound String
+* count max length continuous(diff == 1 or -25) subarray up to current char, the max is the max of prefix sum and current counter
+* prefix sum: if (diff == 1 or -25), increment, else reset to 1
+* return the sum of counter
+
 ### LC 560. Subarray Sum Equals K
 * use a map to put prefix sum for every number, and init value 0 -> 1
 * because later we check prefix sum - k result is in map or not, if prefix sum - k == 0, there is one match.
