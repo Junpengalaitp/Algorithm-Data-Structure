@@ -9,10 +9,16 @@
 * check prefix sum - k for every number, if the result in counter map, add map value count.
 * increment prefix sum value in counter map by 1
 
+### LC 795. Number of Subarrays with Bounded Maximum
+* do two sub arrays sum not greater than target, which are left - 1 and right bound
+* the result is prefixSum(right) - prefixSum(left - 1)
 ### LC 848. Shifting Letters
 * convert the shifts array to reverted prefix sum array
 * in the conversion, mod the number by 26
 * convert the string by the prefix sum array
+
+
+
 ### LC 1248. Count Number of Nice Subarrays
 * prefix sum: number of odd numbers up to current num
 * use a map to put prefix sum for every number, and init value 0 -> 1
@@ -24,3 +30,4 @@
 
 ### LC 1508. Range Sum of Sorted Subarray Sums
 * prefix sum on prefix sum
+
