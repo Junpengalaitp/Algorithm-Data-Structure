@@ -1,3 +1,6 @@
+### LC 904. Fruit Into Baskets
+* standard map counter approach, when map size > 2, shrink left
+
 ### LC 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit
 * two pointer approach, with a sorted map to record min and max values within the left and right interval
 
