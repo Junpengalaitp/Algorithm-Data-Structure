@@ -17,6 +17,9 @@
 * in the conversion, mod the number by 26
 * convert the string by the prefix sum array
 
+### LC 1094. Car Pooling
+* basically same as LC 1109
+
 ### LC 1109. Corporate Flight Bookings
 * use prefix sum to eliminate the inner loop
 * add booking[0] - 1 to res (every number after this index will add this number) 
