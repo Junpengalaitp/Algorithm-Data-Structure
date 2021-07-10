@@ -17,7 +17,11 @@
 * in the conversion, mod the number by 26
 * convert the string by the prefix sum array
 
-
+### LC 1109. Corporate Flight Bookings
+* use prefix sum to eliminate the inner loop
+* add booking[0] - 1 to res (every number after this index will add this number) 
+* subtract booking[1] to res (because at the step above, number not in [booking[0], booking[1]] are incremented by booking[0])
+* loop the res array from(1, n), every number += res[i-1], and return res
 
 ### LC 1248. Count Number of Nice Subarrays
 * prefix sum: number of odd numbers up to current num
