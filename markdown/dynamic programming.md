@@ -25,6 +25,10 @@
   * the result is the list size
   * O(nlogn) time and O(n) space
 
+### LC 354. Russian Doll Envelopes
+* sort the array by the envelope width and height
+* solve it as Longest increasing subsequence problem
+
 ### LC 115. Distinct Subsequences
 * use a 2D dp table
 * two choices, match s[i+1] and t[j+1] or [s+1] and t[j]
