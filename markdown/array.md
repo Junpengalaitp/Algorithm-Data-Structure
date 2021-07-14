@@ -3,6 +3,11 @@
 * multiply left and right products to get the result
 
 
+### LC 4. Median of Two Sorted Arrays
+* merge two sorted list and find the median (O(m + n))
+* binary search on the shorter list (O(min(m, n)))
+
+
 ## Two Pointers
 ### LC 15. 3Sum
 * sort the num array, iterate every num, use the num as target and do a 2 sum on the remaining array
