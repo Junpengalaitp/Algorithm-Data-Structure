@@ -1,3 +1,8 @@
+### LC 30. Substring with Concatenation of All Words
+* use a window of size total word length
+* loop the string, check every window word count is equal to target word count
+* time complexity: O(n * m), n = s.length, m = words.length
+
 ### LC 209. Minimum Size Subarray Sum
 * left and right pointers
 * when target met, shrink the window by increment left pointer
