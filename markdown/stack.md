@@ -1,3 +1,10 @@
+### LC 32. Longest Valid Parentheses
+* use a stack, init with an element -1
+* loop the str, add index to the stack if current char is '('
+* pop the stack if current char is ')'
+* if the stack after pop in not empty, update the res to max(res, index - stack.peek())
+* else add current index to the stack
+
 ## LC 150. Evaluate Reverse Polish Notation
 * use a stack
 * if token is a number, add it to the stack
