@@ -14,6 +14,11 @@
   * add current root value to current level
   * recurse on left and right node
 
+### LC 124. Binary Tree Maximum Path Sum
+* the path can only choose one of the left and right subtree, so the helper returns root.val + max(left, right)
+* in the helper, update the res to max(res, root.val + left + right)
+* if the left or right is less than 0, use 0 as value
+
 ### LC 129. Sum Root to Leaf Numbers
 * on recursive, update current num to current num * 10 + root.val
 * if current node is a leaf node, add current num to result
