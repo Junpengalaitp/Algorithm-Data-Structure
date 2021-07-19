@@ -34,3 +34,7 @@
   * update map index of last value
   * remove the last element from list and map
 * get random: get random element from list using random index
+
+
+### LC 432. All O`one Data Structure
+* two hash map and doubly linked list
