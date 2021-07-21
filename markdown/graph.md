@@ -23,3 +23,8 @@
 
 ### LC 1334. Find the City With the Smallest Number of Neighbors at a Threshold Distance
 * Floyd-Warshall algorithm
+
+
+### LC 834. Sum of Distances in Tree
+* treat the tree as a graph
+* do two different df on the graph and get ans
