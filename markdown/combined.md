@@ -1,5 +1,5 @@
 ### LC 968. Binary Tree Cameras
-* Tree Traversal + DP(state machine)
+* Tree Traversal(post order, the parent state is determined by its children) + DP(state machine)
 * three states for a node
   * has camera: this node already placed a camera
   * covered: no camera here by covered by its parent of children
