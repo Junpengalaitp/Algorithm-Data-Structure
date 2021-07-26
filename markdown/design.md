@@ -38,3 +38,7 @@
 
 ### LC 432. All O`one Data Structure
 * two hash map and doubly linked list
+* the linked list is an ascending sorted list, we always add count 1 node to the head
+* when add key, if the key is not existing, simply add the the to the map with count 1 and add the node to the head
+* when remove a key, if the key count is one, simply remove it from the maps and list
+* if there key is existing before adding or after removing, we add a node with new count before/after current node, add remove the current node 
