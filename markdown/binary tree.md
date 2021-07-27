@@ -92,7 +92,7 @@
 
 ### LC 1373. Maximum Sum BST in Binary Tree
 * traversal from the root, if the current root is BST, sum the nodes value and update max
-* isBST()
-* treeSum()
+* isBST(): check node value is strictly between min and max, and left and right children are also BSTs
+* treeSum(): return the sum value of the node value and treeSum(left) and treeSum(right), and update the maxSum
 
 
