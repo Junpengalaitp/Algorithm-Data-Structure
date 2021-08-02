@@ -125,6 +125,10 @@
 * k = any, but if k > n/2(n = days), the k is meaning less, which we can solve it as LC 122
 * else we can solve it the same way with LC 123
 
+
+### LC 65. Valid Number
+* state transfer
+
 ### 0/1 knapsack
 ### LC 416. Partition Equal Subset Sum
 * Basically this question is asking us are they any combinations that has the target sum(total sum / 2), so it's a 0/1 knapsack problem

@@ -5,6 +5,13 @@
 * if the stack after pop in not empty, update the res to max(res, index - stack.peek())
 * else add current index to the stack
 
+### LC 71. Simplify Path
+* use a stack, and split the path by "/"
+* add the spitted string to stack, if path is "." or empty, do nothing
+* if string is "..", pop from the stack
+* else add the string to the stack
+* return "/" + "/" join the stack element
+
 ## LC 150. Evaluate Reverse Polish Notation
 * use a stack
 * if token is a number, add it to the stack
