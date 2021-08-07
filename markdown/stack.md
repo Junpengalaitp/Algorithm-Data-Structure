@@ -19,6 +19,9 @@
 * return stack.peek()
 
 # Monotone Stack
+
+### LC 85. Maximal Rectangle
+
 ## LC 1019. Next Greater Node In Linked List
 * reverse the input list, and record its length as n
 * init res array with length n
