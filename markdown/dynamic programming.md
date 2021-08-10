@@ -266,4 +266,6 @@
 ### LC 72. Edit Distance
 * A[-1] and B[-1] is the same: dp[i][j]=1+min(D[i][j−1],D[i−1][j],D[i−1][j−1]−1)
 * A[-1] and B[-1] is different: dp[i][j]=1+min(D[i][j−1],D[i−1][j],D[i−1][j−1])
+
+### LC 87. Scramble String
 ​
