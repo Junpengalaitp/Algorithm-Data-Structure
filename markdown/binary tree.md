@@ -89,6 +89,8 @@
 * BFS get the last level
 * return last level sum
 
+### LC 1372. Longest ZigZag Path in a Binary Tree
+* 
 
 ### LC 1373. Maximum Sum BST in Binary Tree
 * traversal from the root, if the current root is BST, sum the nodes value and update max
