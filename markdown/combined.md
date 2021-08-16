@@ -4,3 +4,6 @@
   * has camera: this node already placed a camera
   * covered: no camera here by covered by its parent of children
   * need cover: not covered by any camera
+
+### LC 1372. Longest ZigZag Path in a Binary Tree
+* dp + iterative tree traversal
