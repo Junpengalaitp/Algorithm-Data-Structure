@@ -7,3 +7,4 @@
 
 ### LC 1372. Longest ZigZag Path in a Binary Tree
 * dp + iterative tree traversal
+* dp + recursive tree traversal
