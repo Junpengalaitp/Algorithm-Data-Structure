@@ -91,9 +91,13 @@
 
 ### LC 1372. Longest ZigZag Path in a Binary Tree
 * dp + iterative tree traversal
-* two dp maps for recording current path length of left and right children
-* because of ZigZag, the left node path length is its parent length in right map + 1, and vice versa for right node;
-* in the traversal, update the res to max(res, left len, right len)
+  * two dp maps for recording current path length of left and right children
+  * because of ZigZag, the left node path length is its parent length in right map + 1, and vice versa for right node;
+  * in the traversal, update the res to max(res, left len, right len)
+* dp + recursive tree traversal
+  * pre order, update the max length, then traversal the left and right children
+  * left: length + 1 if the direction is right, else length = 1
+  * right: length + 1 if the direction is left, else length = 1 
 
 ### LC 1373. Maximum Sum BST in Binary Tree
 * traversal from the root, if the current root is BST, sum the nodes value and update max
