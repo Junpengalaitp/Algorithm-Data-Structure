@@ -60,6 +60,10 @@
 * level level traversal
 * can discard all upper levels to reduce memory usage
 
+### LC 654. Maximum Binary Tree
+* find the max index in the nums array between left and right index
+* recurse on left index to max index and max index + 1 to right index
+
 ### LC 987. Vertical Order Traversal of a Binary Tree
 * do a traversal and mark each node's coordinates
 * build answer by the coordinates, col are levels, and in each level order nodes val by comparing order row -> val
