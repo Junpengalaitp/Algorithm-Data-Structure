@@ -104,7 +104,7 @@
   decrement k by 1 and continue the inorder traversal
 
 ### LC 1008. Construct Binary Search Tree from Preorder Traversal
-* add values to a deque, or use index to save space
+* add values to a deque, or just use input array with index to save space
 * use preorder traversal, pass min and max value in helper as params
 * if the deque is empty or deque first is out of min,max bound, return null
 * remove the top value from deque as the TreeNode
