@@ -75,6 +75,20 @@
 * tree traversal and recover the binary tree
 * in traversal, add value to a set
 
+### LC 1302. Deepest Leaves Sum
+* BFS get the last level
+* return last level sum
+
+### LC 1372. Longest ZigZag Path in a Binary Tree
+* dp + iterative tree traversal
+  * two dp maps for recording current path length of left and right children
+  * because of ZigZag, the left node path length is its parent length in right map + 1, and vice versa for right node;
+  * in the traversal, update the res to max(res, left len, right len)
+* dp + recursive tree traversal
+  * pre order, update the max length, then traversal the left and right children
+  * left: length + 1 if the direction is right, else length = 1
+  * right: length + 1 if the direction is left, else length = 1 
+
 ## Binary Search Tree
 ### LC 95. Unique Binary Search Trees II
 * recursion approach, recursive call on (start, i - 1) and (i + 1, end), the i is the current BST root
@@ -89,19 +103,12 @@
 * use iterative inorder traversal, when popping front the stack, if k == 1, return the root value, if not, 
   decrement k by 1 and continue the inorder traversal
 
-### LC 1302. Deepest Leaves Sum
-* BFS get the last level
-* return last level sum
-
-### LC 1372. Longest ZigZag Path in a Binary Tree
-* dp + iterative tree traversal
-  * two dp maps for recording current path length of left and right children
-  * because of ZigZag, the left node path length is its parent length in right map + 1, and vice versa for right node;
-  * in the traversal, update the res to max(res, left len, right len)
-* dp + recursive tree traversal
-  * pre order, update the max length, then traversal the left and right children
-  * left: length + 1 if the direction is right, else length = 1
-  * right: length + 1 if the direction is left, else length = 1 
+### LC 1008. Construct Binary Search Tree from Preorder Traversal
+* add values to a deque, or use index to save space
+* use preorder traversal, pass min and max value in helper as params
+* if the deque is empty or deque first is out of min,max bound, return null
+* remove the top value from deque as the TreeNode
+* recurse on left and right and update params use current value
 
 ### LC 1373. Maximum Sum BST in Binary Tree
 * traversal from the root, if the current root is BST, sum the nodes value and update max
