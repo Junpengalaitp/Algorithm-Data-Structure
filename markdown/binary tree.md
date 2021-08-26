@@ -103,6 +103,15 @@
 * use iterative inorder traversal, when popping front the stack, if k == 1, return the root value, if not, 
   decrement k by 1 and continue the inorder traversal
 
+### LC 450. Delete Node in a BST
+* if current root value != key, recurse on left or right child, depending on the root value less or greater than root value.
+* if current root value == key, if current root is a leaf node, remove it.
+* if the current root has no left child, return right child
+* if the current root has no right child, return left child
+* if the current root has both children, find the smallest node that is greater than current root
+* replace current root value with the smallest node value, and delete the smallest node by point its parent's left child to grand right child
+* if parent == root, meaning that it has no grand left child, replace the right to grand right child
+
 ### LC 1008. Construct Binary Search Tree from Preorder Traversal
 * add values to a deque, or just use input array with index to save space
 * use preorder traversal, pass min and max value in helper as params
