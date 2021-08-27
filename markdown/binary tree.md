@@ -117,6 +117,7 @@
 * if root.val < low, return result of it's right
 * if root.val > high, return result of it's left
 * recurse on left and right child
+* can also be done with postorder traversal
 
 ### LC 1008. Construct Binary Search Tree from Preorder Traversal
 * add values to a deque, or just use input array with index to save space
