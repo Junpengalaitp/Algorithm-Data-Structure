@@ -112,6 +112,12 @@
 * replace current root value with the smallest node value, and delete the smallest node by point its parent's left child to grand right child
 * if parent == root, meaning that it has no grand left child, replace the right to grand right child
 
+### LC 669. Trim a Binary Search Tree
+* preorder traversal
+* if root.val < low, return result of it's right
+* if root.val > high, return result of it's left
+* recurse on left and right child
+
 ### LC 1008. Construct Binary Search Tree from Preorder Traversal
 * add values to a deque, or just use input array with index to save space
 * use preorder traversal, pass min and max value in helper as params
