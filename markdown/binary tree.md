@@ -62,6 +62,7 @@
 
 ### LC 654. Maximum Binary Tree
 * find the max index in the nums array between left and right index
+* base case: left >= right, return null, because max right = nums.length, so if left == right, has to stop
 * recurse on left index to max index and max index + 1 to right index
 
 ### LC 987. Vertical Order Traversal of a Binary Tree
@@ -104,7 +105,7 @@
   decrement k by 1 and continue the inorder traversal
 
 ### LC 450. Delete Node in a BST
-* if current root value != key, recurse on left or right child, depending on the root value less or greater than root value.
+* if current root value != key, recurse on left or right child(root.left = (recurse on left), root.right = (recurse on right)), depending on the root value less or greater than root value.
 * if current root value == key, if current root is a leaf node, remove it.
 * if the current root has no left child, return right child
 * if the current root has no right child, return left child
