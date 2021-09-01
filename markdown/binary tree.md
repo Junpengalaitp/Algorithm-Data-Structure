@@ -17,7 +17,7 @@
 ### LC 124. Binary Tree Maximum Path Sum
 * the path can only choose one of the left and right subtree, so the helper returns root.val + max(left, right)
 * in the helper, update the res to max(res, root.val + left + right)
-* if the left or right is less than 0, use 0 as value
+* the left and right value are floored at 0, because a negative value would decrease the max value, so exclude it from the path
 
 ### LC 129. Sum Root to Leaf Numbers
 * on recursive, update current num to current num * 10 + root.val
