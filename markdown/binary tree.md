@@ -60,6 +60,12 @@
 * level level traversal
 * can discard all upper levels to reduce memory usage
 
+### LC 563. Binary Tree Tilt
+* use a global variable to store the tilt
+* base case: null node returns 0
+* on traversal, increment the tilt value by abs(left + right)
+* return the sum of (left + right + node.val) as the traversal function return value
+
 ### LC 654. Maximum Binary Tree
 * find the max index in the nums array between left and right index
 * base case: left >= right, return null, because max right = nums.length, so if left == right, has to stop
