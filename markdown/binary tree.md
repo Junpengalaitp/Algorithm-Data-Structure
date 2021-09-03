@@ -143,6 +143,9 @@
 * isBST(): check node value is strictly between min and max, and left and right children are also BSTs
 * treeSum(): return the sum value of the node value and treeSum(left) and treeSum(right), and update the maxSum
 
-
+### LC 1448. Count Good Nodes in Binary Tree
+* global res
+* if the node value is equal or greater than path max value, res++
+* recursion on left and right node with max of (max, node value)
 ## Morris Traversal
 * LC 99. Recover Binary Search Tree
