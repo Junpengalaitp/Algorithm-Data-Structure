@@ -131,6 +131,10 @@
 * recurse on left and right child
 * can also be done with postorder traversal
 
+### 1022. Sum of Root To Leaf Binary Numbers
+* on recursion, add current value to binary string
+* convert binary string to int and add it to result if it's a leaf node
+* recursion on left and right pass the binary string as a variable
 ### LC 1008. Construct Binary Search Tree from Preorder Traversal
 * add values to a deque, or just use input array with index to save space
 * use preorder traversal, pass min and max value in helper as params
