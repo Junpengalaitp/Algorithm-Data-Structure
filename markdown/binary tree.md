@@ -60,6 +60,10 @@
 * level level traversal
 * can discard all upper levels to reduce memory usage
 
+### LC 560, 783. Minimum Distance Between BST Nodes
+* use inorder traversal
+* when dealing with the root logic, if previous value is not null, update res, then replace previous value to current node value
+
 ### LC 563. Binary Tree Tilt
 * use a global variable to store the tilt
 * base case: null node returns 0
@@ -153,3 +157,9 @@
 * recursion on left and right node with max of (max, node value)
 ## Morris Traversal
 * LC 99. Recover Binary Search Tree
+
+
+
+
+## Inorder Traversal
+* LC 560, 783. Minimum Distance Between BST Nodes
