@@ -56,6 +56,10 @@
 * if left is null, return right
 * if right is null, return left
 
+### LC 865,1123. Smallest Subtree with all the Deepest Nodes
+* first find the deepest nodes use BFS, store them in a set
+* find the lowest common ancestor of these nodes, same as LC 236. Lowest Common Ancestor of a Binary Tree
+
 ### LC 513. Find Bottom Left Tree Value
 * level level traversal
 * can discard all upper levels to reduce memory usage
