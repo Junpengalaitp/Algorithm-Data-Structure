@@ -8,3 +8,6 @@
 ### LC 1372. Longest ZigZag Path in a Binary Tree
 * dp + iterative tree traversal
 * dp + recursive tree traversal
+
+### LC 894. All Possible Full Binary Trees
+* tree + backtracking, use a cache

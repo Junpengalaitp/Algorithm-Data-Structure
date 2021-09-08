@@ -60,6 +60,9 @@
 * first find the deepest nodes use BFS, store them in a set
 * find the lowest common ancestor of these nodes, same as LC 236. Lowest Common Ancestor of a Binary Tree
 
+### LC 894. All Possible Full Binary Trees
+* tree + backtracking, use a cache
+
 ### LC 513. Find Bottom Left Tree Value
 * level level traversal
 * can discard all upper levels to reduce memory usage
