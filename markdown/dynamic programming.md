@@ -269,3 +269,5 @@
 
 ### LC 87. Scramble String
 ​
+
+### LC 313. Super Ugly Number
