@@ -13,3 +13,10 @@
 * when total size is even, offer to larger heap and poll large heap top, offer it to small heap
 * else offer to small heap and poll small heap top to large heap
 * if total size is even, return avg of two heap tops, else return small heap top
+
+
+### LC 857. Minimum Cost to Hire K Workers
+* sort the workers by their wage / quality ratio
+* use a max heap to select workers by their quality
+* adding workers to the heap, if heap size == k, update the res to sum of quality  *  current worker ratio
+* is heap size > k, poll the top and deduct the sumq accordingly
