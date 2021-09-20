@@ -20,3 +20,5 @@
 * use a max heap to select workers by their quality
 * adding workers to the heap, if heap size == k, update the res to sum of quality  *  current worker ratio
 * is heap size > k, poll the top and deduct the sumq accordingly
+
+### LC 1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows
