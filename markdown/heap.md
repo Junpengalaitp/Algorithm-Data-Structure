@@ -22,3 +22,9 @@
 * is heap size > k, poll the top and deduct the sumq accordingly
 
 ### LC 1439. Find the Kth Smallest Sum of a Matrix With Sorted Rows
+
+### LC 719. Find K-th Smallest Pair Distance
+* sort the nums, because the smallest distance must exist in the pairs of first kth nums
+* loop the nums, offer the node to the heap, comparing the difference between current index and next index
+* while k > 0, poll the heap, and if the node.next < nums.length - 1, offer new node(root, next + 1) to the heap
+* return the node diff of heap top

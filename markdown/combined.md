@@ -11,3 +11,8 @@
 
 ### LC 894. All Possible Full Binary Trees
 * tree + backtracking, use a cache
+
+### LC 719. Find K-th Smallest Pair Distance
+* sort + heap
+* sort + binary search + prefix sum
+* sort + binary search + two pointers
