@@ -28,3 +28,8 @@
 * loop the nums, offer the node to the heap, comparing the difference between current index and next index
 * while k > 0, poll the heap, and if the node.next < nums.length - 1, offer new node(root, next + 1) to the heap
 * return the node diff of heap top
+
+### LC 632. Smallest Range Covering Elements from K Lists
+* use heap to store the mins of each array, also record its index as pointers
+* use a variable to store global max
+* popping the heap, and update interval and variables
