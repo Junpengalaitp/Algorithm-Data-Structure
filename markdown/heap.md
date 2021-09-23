@@ -33,3 +33,5 @@
 * use heap to store the mins of each array, also record its index as pointers
 * use a variable to store global max
 * popping the heap, and update interval and variables
+
+### LC 1675. Minimize Deviation in Array
