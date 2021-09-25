@@ -35,3 +35,5 @@
 * popping the heap, and update interval and variables
 
 ### LC 1675. Minimize Deviation in Array
+
+### LC 871. Minimum Number of Refueling Stops
