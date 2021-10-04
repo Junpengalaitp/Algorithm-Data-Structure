@@ -35,3 +35,8 @@
 * popping the heap, and update interval and variables
 
 ### LC 1675. Minimize Deviation in Array
+
+### LC 1488. Avoid Flood in The City
+* when encounter a day that we can dry a lake, we store that day in a map
+* when encounter a day a lake would flood, try to find if there is a day to dry that lake, if there are many, choose a day that is closest to previous full day
+* for a day we don't do anything, set to 1
