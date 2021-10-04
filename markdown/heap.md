@@ -36,11 +36,10 @@
 
 ### LC 1675. Minimize Deviation in Array
 
-<<<<<<< HEAD
+### LC 871. Minimum Number of Refueling Stops
+
+
 ### LC 1488. Avoid Flood in The City
 * when encounter a day that we can dry a lake, we store that day in a map
 * when encounter a day a lake would flood, try to find if there is a day to dry that lake, if there are many, choose a day that is closest to previous full day
 * for a day we don't do anything, set to 1
-=======
-### LC 871. Minimum Number of Refueling Stops
->>>>>>> 0e144de6ba9c8c9e0280133c1100cc7394bd366b
