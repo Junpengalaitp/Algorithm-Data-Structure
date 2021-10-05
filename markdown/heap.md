@@ -43,3 +43,10 @@
 * when encounter a day that we can dry a lake, we store that day in a map
 * when encounter a day a lake would flood, try to find if there is a day to dry that lake, if there are many, choose a day that is closest to previous full day
 * for a day we don't do anything, set to 1
+
+### LC 1642. Furthest Building You Can Reach
+* loop the building array start at index 1, and calculate the diff
+* if diff <= 0, do nothing
+* if diff > 0 and we don't have enough bricks but have a ladder, and add back the bricks used before if there is one (use a max heap to record)
+* if there is not ladder and not enough bricks, return the index - 1 as answer
+* add current diff to the heap
