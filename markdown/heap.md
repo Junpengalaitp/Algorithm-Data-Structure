@@ -50,3 +50,11 @@
 * if diff > 0 and we don't have enough bricks but have a ladder, and add back the bricks used before if there is one (use a max heap to record)
 * if there is not ladder and not enough bricks, return the index - 1 as answer
 * add current diff to the heap
+
+
+### LC 347. Top K Frequent Elements
+* count the frequency using a map
+* add frequency to a min heap
+* when heap size > k, poll the heap
+* return all numbers in the heap
+* time complexity is NlogK
