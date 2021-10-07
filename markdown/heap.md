@@ -58,3 +58,9 @@
 * when heap size > k, poll the heap
 * return all numbers in the heap
 * time complexity is NlogK
+
+
+### LC 973. K Closest Points to Origin
+* when heap size > k, poll the heap
+* return all numbers in the heap
+* time complexity is NlogK
