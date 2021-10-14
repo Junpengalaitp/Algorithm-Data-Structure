@@ -64,3 +64,6 @@
 * when heap size > k, poll the heap
 * return all numbers in the heap
 * time complexity is NlogK
+
+### LC 743. Network Delay Time
+* dijkstra use heap 

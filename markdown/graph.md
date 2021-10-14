@@ -28,3 +28,5 @@
 ### LC 834. Sum of Distances in Tree
 * treat the tree as a graph
 * do two different df on the graph and get ans
+
+### LC 743. Network Delay Time
