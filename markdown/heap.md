@@ -67,3 +67,9 @@
 
 ### LC 743. Network Delay Time
 * dijkstra use heap 
+
+
+### LC 263. Ugly Number
+* init a static factors of 2, 3, 5
+* loop the factors, for each factor, while the number % factor equals to 0, number /= factor
+* return check result of number == 1 in the end
