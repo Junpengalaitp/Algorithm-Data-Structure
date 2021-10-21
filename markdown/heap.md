@@ -73,3 +73,7 @@
 * init a static factors of 2, 3, 5
 * loop the factors, for each factor, while the number % factor equals to 0, number /= factor
 * return check result of number == 1 in the end
+
+### LC 264. Ugly Number II
+* start from 1, add the multiplied result of 2, 3, 5 to a min heap
+* use a set to avoid duplicated numbers
