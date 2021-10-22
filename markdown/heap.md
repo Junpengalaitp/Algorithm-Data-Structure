@@ -77,3 +77,5 @@
 ### LC 264. Ugly Number II
 * start from 1, add the multiplied result of 2, 3, 5 to a min heap
 * use a set to avoid duplicated numbers
+
+### LC 1201. Ugly Number III
