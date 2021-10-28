@@ -5,3 +5,7 @@
 
 ### LC 28. Implement strStr()
 * O(n), loop from 0 to haystack length - needle length(inclusive), and check substring(i, i + needle length) equals to needle
+
+
+### LC 344. Reverse String
+* loop half the array and swap
