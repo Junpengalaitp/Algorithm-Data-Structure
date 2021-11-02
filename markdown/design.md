@@ -42,3 +42,10 @@
 * when add key, if the key is not existing, simply add the the to the map with count 1 and add the node to the head
 * when remove a key, if the key count is one, simply remove it from the maps and list
 * if there key is existing before adding or after removing, we add a node with new count before/after current node, add remove the current node 
+
+
+### LC 284. Peeking Iterator
+* go one step forward, store the next in a variable
+* hasNext(): return variable != null
+* next(): store the variable in a tmp, update the variable to the next element, and return the variable
+* peek(): return the variable
