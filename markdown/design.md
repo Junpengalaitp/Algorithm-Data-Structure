@@ -49,3 +49,6 @@
 * hasNext(): return variable != null
 * next(): store the variable in a tmp, update the variable to the next element, and return the variable
 * peek(): return the variable
+
+### LC 307. Range Sum Query - Mutable
+* segment tree, O(logN)
