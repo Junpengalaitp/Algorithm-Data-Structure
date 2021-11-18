@@ -57,3 +57,6 @@
 * use a NavigableSet for storing the intervals in sorted order and get neighbors for merging, and a HashSet for filtering out the added numbers
 * if the val is not in seen, add a new interval {val, val} to intervals, and call merge() on this new interval and try to merge with its neighbors
 * recursively call this function to merge with neighbors, until there is no ligit neighbors to merge
+
+### LC 355. Design Twitter
+  
