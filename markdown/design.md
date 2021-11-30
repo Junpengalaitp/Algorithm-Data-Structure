@@ -33,6 +33,7 @@
   * get the list index of input value from map, set this index value to the the last element in the list
   * update map index of last value
   * remove the last element from list and map
+  * have to remove at last, in case their is only one value in set
   
 * get random: get random element from list using random index
 
