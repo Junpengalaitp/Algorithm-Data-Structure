@@ -37,6 +37,10 @@
   
 * get random: get random element from list using random index
 
+### LC 381 Insert Delete GetRandom O(1) - Duplicates allowed
+* use a set to store index in idxMap
+
+
 
 ### LC 432. All O`one Data Structure
 * two hash map and doubly linked list
@@ -61,4 +65,5 @@
 * recursively call this function to merge with neighbors, until there is no ligit neighbors to merge
 
 ### LC 355. Design Twitter
+  
   
