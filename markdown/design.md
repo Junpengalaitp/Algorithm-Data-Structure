@@ -61,9 +61,14 @@
 
 ### LC 352. Data Stream as Disjoint Intervals
 * use a NavigableSet for storing the intervals in sorted order and get neighbors for merging, and a HashSet for filtering out the added numbers
-* if the val is not in seen, add a new interval {val, val} to intervals, and call merge() on this new interval and try to merge with its neighbors
-* recursively call this function to merge with neighbors, until there is no ligit neighbors to merge
+
 
 ### LC 355. Design Twitter
   
+### LC 460. LFU Cache
+* use a variable to store the min frequency
+* use a node to store the key, value and frequency
+* use a map to store frequency to deque of nodes 
+* use another map to store key to node
+* recursively call this function to merge with neighbors, until there is no ligit neighbors to merge
   
