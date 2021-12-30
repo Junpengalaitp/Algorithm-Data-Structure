@@ -16,3 +16,9 @@
 * sort + heap
 * sort + binary search + prefix sum
 * sort + binary search + two pointers
+
+
+### LC 272. Closest Binary Search Tree Value II
+* sorting: O(nlogn)
+* max heap with k size: O(nlogk)
+* quick select: O(n)
