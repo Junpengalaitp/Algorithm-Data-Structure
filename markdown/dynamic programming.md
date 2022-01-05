@@ -273,3 +273,10 @@
 
 ### LC 313. Super Ugly Number
 * dp
+
+### LC 1235. Maximum Profit in Job Scheduling
+* top down dp with two decisions: 
+  1. take current job profit and recurse on the next non-conflict job
+  2. skip current job and recurse on the next job
+* sort the jobs by start time
+
