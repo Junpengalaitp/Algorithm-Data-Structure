@@ -170,3 +170,9 @@
 
 ## Inorder Traversal
 * LC 560, 783. Minimum Distance Between BST Nodes
+
+
+
+### LC 314. Binary Tree Vertical Order Traversal
+* normal tree traversal with a coordinate to mark row and col
+* use a SortedMap to get output in order, O(nlogn) time
