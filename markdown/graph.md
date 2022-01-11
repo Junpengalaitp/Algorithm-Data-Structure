@@ -30,3 +30,7 @@
 * do two different df on the graph and get ans
 
 ### LC 743. Network Delay Time
+
+### LC 815. Bus Routes
+* each route is a node, build a undirected graph on routes if two routes has intersections
+* use a bfs to get the shortest route
