@@ -34,3 +34,4 @@
 ### LC 815. Bus Routes
 * each route is a node, build a undirected graph on routes if two routes has intersections
 * use a bfs to get the shortest route
+* add depth and route as node to the queue
