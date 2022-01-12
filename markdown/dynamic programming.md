@@ -280,3 +280,4 @@
   2. skip current job and recurse on the next job
 * sort the jobs by start time
 
+### LC 1326. Minimum Number of Taps to Open to Water a Garden
