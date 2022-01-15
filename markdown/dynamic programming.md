@@ -281,3 +281,9 @@
 * sort the jobs by start time
 
 ### LC 1326. Minimum Number of Taps to Open to Water a Garden
+
+
+### LC 45. Jump Game II
+* init a dp array, fill values with max int
+* two loops, the inner loop update the dp array with min(dp[j], dp[start]  + 1), dp[start] + 1 means from start, and jump once to get here
+* return dp[length - 1]
