@@ -284,6 +284,6 @@
 
 
 ### LC 45. Jump Game II
-* init a dp array, fill values with max int, and dp[0] = 0;
+* init a dp array, fill values with max int, and dp[0] = 0
 * two loops, the inner loop update the dp array with min(dp[j], dp[start]  + 1), dp[start] + 1 means from start, and jump once to get here
 * return dp[length - 1]
