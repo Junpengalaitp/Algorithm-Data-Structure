@@ -287,3 +287,9 @@
 * init a dp array, fill values with max int, and dp[0] = 0
 * two loops, the inner loop update the dp array with min(dp[j], dp[start]  + 1), dp[start] + 1 means from start, and jump once to get here
 * return dp[length - 1]
+
+
+### LC 1024. Video Stitching
+init a dp array, fill values with max int, and dp[0] = 0
+* two loops, the inner loop update the dp array with min(dp[j], dp[start] + 1), dp[start] + 1 means from start, add this clip to get here
+* return dp[length - 1] if dp[length - 1] is not init value else return -1
