@@ -293,3 +293,10 @@
 init a dp array, fill values with max int, and dp[0] = 0
 * two loops, the inner loop update the dp array with min(dp[j], dp[start] + 1), dp[start] + 1 means from start, add this clip to get here
 * return dp[length - 1] if dp[length - 1] is not init value else return -1
+
+### LC 97. Interleaving String
+* recursion dp: use 3 pointers: i, j, k for s1, s2, s3
+* base case: i == len(s1), return the remaining substring of s2 equals remaining substring of s3 and vice versa
+* if current char of i equals current char of k, increment i and k, then do recursion
+* if current char of j equals current char of k, increment j and k, then do recursion
+* use a cache to store i and j result
