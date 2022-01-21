@@ -296,7 +296,13 @@ init a dp array, fill values with max int, and dp[0] = 0
 
 ### LC 97. Interleaving String
 * recursion dp: use 3 pointers: i, j, k for s1, s2, s3
-* base case: i == len(s1), return the remaining substring of s2 equals remaining substring of s3 and vice versa
-* if current char of i equals current char of k, increment i and k, then do recursion
-* if current char of j equals current char of k, increment j and k, then do recursion
-* use a cache to store i and j result
+  * base case: i == len(s1), return the remaining substring of s2 equals remaining substring of s3 and vice versa
+  * if current char of i equals current char of k, increment i and k, then do recursion
+  * if current char of j equals current char of k, increment j and k, then do recursion
+  * use a cache to store i and j result
+* 2D dp table:
+  * init a matrix with row = s1.length() and col = s2.length()
+  * base case: dp[0][0] = true, empty strings always matches
+  * row = 0: meaning not include s1, only match s2, dp[0][j] = dp[0][j - 1] && s2char == s3char
+  * col = 0: meaning not include s2, only match s1, dp[i][0] = dp[i - 1][0] && s1char == s3char
+  * else check substring of s1 and substring of s2 matches
