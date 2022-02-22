@@ -306,3 +306,7 @@ init a dp array, fill values with max int, and dp[0] = 0
   * row = 0: meaning not include s1, only match s2, dp[0][j] = dp[0][j - 1] && s2char == s3char
   * col = 0: meaning not include s2, only match s1, dp[i][0] = dp[i - 1][0] && s1char == s3char
   * else check substring of s1 and substring of s2 matches
+
+
+### LC 132. Palindrome Partitioning II
+* backtracking and caching
