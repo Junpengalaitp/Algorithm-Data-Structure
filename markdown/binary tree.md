@@ -176,3 +176,7 @@
 ### LC 314. Binary Tree Vertical Order Traversal
 * normal tree traversal with a coordinate to mark row and col
 * use a SortedMap to get output in order, O(nlogn) time
+
+### LC 156. Binary Tree Upside Down
+* preorder traversal on root.left
+* operate root and return new root
