@@ -9,3 +9,9 @@
 
 ### LC 344. Reverse String
 * loop half the array and swap
+
+### LC 161. One Edit Distance
+* base case: if two string's length diff larger than 1, return false
+* loop two strings, when the chars are different, if they have same length, return the remaining substring are equal
+* if they have different length, return s.substring(i) equals to t.substring(i + 1)
+* in the end, return the lengths diff is 1
