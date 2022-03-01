@@ -4,3 +4,6 @@
 ### LC 451. Sort Characters By Frequency
 * use counter and sorting, O(nlogn)
 * or use bucket sort to get O(n)
+
+### LC 164. Maximum Gap
+* bucket sort
