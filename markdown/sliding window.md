@@ -30,3 +30,8 @@
 ### LC 1658. Minimum Operations to Reduce X to Zero
 * reverse thinking: find the max length sub array that has sum equal to array sum - x
 * use standard two pointer approach
+
+
+### LC 187. Repeated DNA Sequences
+* use a hashset and check every length 10 window
+* if the set contains current string, add to result list
