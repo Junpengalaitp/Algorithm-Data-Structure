@@ -15,3 +15,6 @@
 * loop two strings, when the chars are different, if they have same length, return the remaining substring are equal
 * if they have different length, return s.substring(i) equals to t.substring(i + 1)
 * in the end, return the lengths diff is 1
+
+### LC 214. Shortest Palindrome
+* KMP Algo
