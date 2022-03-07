@@ -23,3 +23,6 @@
 * two pointers, both start at idx 0
 * if nums[end] == nums[end + 1] - 1, end += 1 and continue
 * else if start == end, add one number to result, else add a range
+
+### LC 243. Shortest Word Distance
+* two pass, and return the min
